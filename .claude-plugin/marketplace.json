@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "hibiscus-skills",
+  "owner": {
+    "name": "Heather Nianouris",
+    "email": "hnianouris@gmail.com"
+  },
+  "metadata": {
+    "description": "Report-writing skills for Hibiscus Group federal-court compliance monitoring (DOJ Consent Decree, NJ Veterans Memorial Homes)",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "hibiscus-reporting",
+      "displayName": "Hibiscus Report Writing",
+      "description": "Court-report drafting skills for the Hibiscus monitoring team: section drafting with three-option generation, executive summary writing, baseline comparison, vocabulary checking, observation lookup, and Google Docs formatting prep.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/section-writer",
+        "./skills/exec-summary-writer",
+        "./skills/baseline-comparison",
+        "./skills/voice-check",
+        "./skills/obs-lookup",
+        "./skills/format-cleanup"
+      ]
+    }
+  ]
+}
