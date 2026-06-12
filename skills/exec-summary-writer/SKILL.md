@@ -1,6 +1,6 @@
 ---
 name: exec-summary-writer
-description: Writes the executive summary for the Hibiscus court report — LAST, after all body sections are finalized. Refuses to run if body sections are missing or still in draft. Anchors on the facility's underlying themes (for Menlo Park - Documentation concerns and Assessment concerns) rather than listing isolated symptoms. Use when the user asks for the executive summary, exec summary, or report opening.
+description: Writes the executive summary for the Hibiscus court report — LAST, after all body sections are finalized. Refuses to run if body sections are missing or still in draft. Anchors on the facility's underlying themes (defined in the project rulebook) rather than listing isolated symptoms. Use when the user asks for the executive summary, exec summary, or report opening.
 ---
 
 # Executive Summary Writer
@@ -14,17 +14,13 @@ Ask the user to confirm, or verify from the conversation/files: **are ALL body s
 ## Inputs
 
 1. The finalized body sections (in the conversation, or a project file the user points to).
-2. The facility. For **Menlo Park**, the team has established two dominant underlying themes the summary must be framed around:
-   - **Documentation concerns** — gaps, inconsistencies, or absences in the written record that prevent verifying that required care occurred
-   - **Assessment concerns** — gaps in clinical evaluation, risk identification, or care-planning judgment that affect what care is delivered
-   For **Paramus**, start with the same two themes and adjust only if the body sections clearly support different ones — name the change explicitly if you make it.
+2. The facility. The team's established underlying themes per facility are defined in the project rulebook (project knowledge) — frame the summary around them, and if the body sections clearly support different themes, name the change explicitly.
 
 ## Process
 
-1. Read every finalized section. Classify each major finding under Documentation / Assessment / Other (bias toward the first two; Other is an escape hatch).
+1. Read every finalized section. Classify each major finding under the facility themes from the project rulebook, plus Other (bias toward the named themes; Other is an escape hatch).
 2. Write 350–450 words:
-   - One paragraph naming the **documentation theme** with its 2–3 strongest examples, each cited (obs_id, date)
-   - One paragraph naming the **assessment theme**, same treatment
+   - One paragraph per facility theme, naming the theme with its 2–3 strongest examples, each cited (obs_id, date)
    - One short paragraph on bright spots — observed positive practices, cited
    - One closing paragraph: scope of monitoring activity this period and what the next period will prioritize
 3. Name the problems, not the symptoms. "Weight reweighs were missed on three units" is a symptom; "documentation practices do not reliably capture required reassessments" is the problem. Lead with problems, support with symptoms.

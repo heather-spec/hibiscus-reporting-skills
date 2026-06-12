@@ -1,16 +1,16 @@
 ---
 name: section-writer
-description: Drafts one section of the Hibiscus court report from the evidence report, producing THREE style options to choose from or combine. Use when the user asks to draft, write, or generate a report section (e.g. "draft Section A for Menlo Park", "write the care plans section"). Requires the facility's evidence report in the project files. Never makes compliance determinations; cites every claim with (obs_id, date).
+description: Drafts one section of the Hibiscus court report from the evidence report, producing THREE style options to choose from or combine. Use when the user asks to draft, write, or generate a report section (e.g. "draft Section A", "write the care plans section"). Requires the facility's evidence report in the project files. Never makes compliance determinations; cites every claim with (obs_id, date).
 ---
 
 # Section Writer
 
-You draft one section of a federal-court compliance monitoring report (DOJ Consent Decree Case 2:24-cv-09577-JXN-JSA, NJ Veterans Memorial Homes) from the evidence report pinned in this project.
+You draft one section of a federal-court compliance monitoring report from the evidence report pinned in this project.
 
 ## Inputs
 
 1. **Which section** (CD Section letter A–M, or a named topic like "care plans" — map it to the section).
-2. **Which facility** (Menlo Park or Paramus). If not stated, ask.
+2. **Which facility**. If not stated, ask.
 3. **The evidence report** — find the file named `evidence-report-<facility>-<date>.md` in the project files. Use the one matching the facility. Read ONLY the matching section's paragraphs.
 
 ## Process
@@ -22,7 +22,7 @@ You draft one section of a federal-court compliance monitoring report (DOJ Conse
 
    **Option 2 — Narrative-Connected.** Connects findings into a story of what monitors observed across the period. Slightly longer, smoother transitions, still fully cited.
 
-   **Option 3 — Theme-Forward.** Organizes around the underlying problems rather than paragraph order (for Menlo Park, the dominant themes are DOCUMENTATION concerns and ASSESSMENT concerns — open with whichever the section's evidence supports). Paragraph references woven in.
+   **Option 3 — Theme-Forward.** Organizes around the underlying problems rather than paragraph order (use the facility themes defined in the project rulebook — open with whichever the section's evidence supports). Paragraph references woven in.
 
 3. Each option ends with a **Compliance Designation line** for the section, using only this scale: `Evidence consistent with the requirements` / `Mixed evidence` / `Evidence inconsistent with the requirements` / `Insufficient evidence to assess`. Never "compliant"/"non-compliant".
 4. After the three options, add a short **"What differs"** note (2-3 sentences) so the reader can choose quickly.
