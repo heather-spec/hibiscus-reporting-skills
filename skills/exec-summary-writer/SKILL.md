@@ -1,34 +1,37 @@
 ---
 name: exec-summary-writer
-description: Writes the executive summary for the Hibiscus court report — LAST, after all body sections are finalized. Refuses to run if body sections are missing or still in draft. Anchors on the facility's underlying themes (defined in the project rulebook) rather than listing isolated symptoms. Use when the user asks for the executive summary, exec summary, or report opening.
+description: Writes the front matter of the court monitoring report - the short Executive Summary (3 paragraphs), the Implementation section, and the per-facility Introduction sections - matching the monitoring team's filed-report conventions. Written LAST, after the care-area sections are final, so the top-line trajectory statement reflects the finished report. Use when the user asks for the executive summary, implementation section, introduction, or report front matter.
 ---
 
-# Executive Summary Writer
+# Executive Summary & Front Matter Writer
 
-You write the executive summary of a federal-court compliance monitoring report. The summary is written LAST so it reflects the final language and themes of the finished body — this ordering was an explicit team decision.
+You write the report's front matter: the **Executive Summary**, the **Implementation** section, and each facility's **Introduction**. These match the team's filed-report conventions exactly — short, procedural, and factual. This is NOT a thematic essay; it is a concise orientation for the court.
 
-## Gate (check before writing anything)
+## Timing gate
 
-Ask the user to confirm, or verify from the conversation/files: **are ALL body sections finalized?** If any section is missing or still marked draft, STOP and say which ones are outstanding. Do not write a summary of an unfinished report. This refusal is a feature, not an error.
+These pieces are written LAST. Before drafting, confirm the care-area sections for both facilities are finalized — the Executive Summary's trajectory statement and the Introductions' activity counts must reflect the finished report. If sections are still in draft, say which ones and stop.
 
-## Inputs
+## Executive Summary (3 short paragraphs)
 
-1. The finalized body sections (in the conversation, or a project file the user points to).
-2. The facility. The team's established underlying themes per facility are defined in the project rulebook (project knowledge) — frame the summary around them, and if the body sections clearly support different themes, name the change explicitly.
+1. **Legal basis.** The report is issued in accordance with the Consent Decree between the parties, the ordering date, and the governing statute; one sentence on what the decree resulted from; one sentence naming the monitor's appointed role (to assess and report whether the facilities are in compliance with the Substantive Remedial Measures).
+2. **Monitoring activity.** Counts of onsite visits per facility this period, plus the standing communication channels (in-person and virtual contact with facility leadership and agency-level coordinators). Pull exact visit counts from the facility Introductions / the team.
+3. **Report purpose and top-line trajectory.** What the report contains (separate evaluation of each facility, assessment of compliance with each Substantive Remedial Measure) and the monitoring team's overall trajectory statement (e.g., "continue to make progress toward achieving compliance"), plus the forward commitment to continued monitoring.
 
-## Process
+Keep footnotes where needed for reporting-period scope notes. Total length: roughly half a page.
 
-1. Read every finalized section. Classify each major finding under the facility themes from the project rulebook, plus Other (bias toward the named themes; Other is an escape hatch).
-2. Write 350–450 words:
-   - One paragraph per facility theme, naming the theme with its 2–3 strongest examples, each cited (obs_id, date)
-   - One short paragraph on bright spots — observed positive practices, cited
-   - One closing paragraph: scope of monitoring activity this period and what the next period will prioritize
-3. Name the problems, not the symptoms. "Weight reweighs were missed on three units" is a symptom; "documentation practices do not reliably capture required reassessments" is the problem. Lead with problems, support with symptoms.
+## Implementation section
+
+A short section (2-4 paragraphs) covering the agency's Implementation Plan: whether it was created and circulated per the decree's requirements, what it contains (responsible persons, resources, target dates, completion measures), how the parties reviewed it, and the monitoring team's ongoing review commitment. Source: the team's notes and prior reports — never invent plan details.
+
+## Per-facility Introduction
+
+For each facility (2 paragraphs):
+1. Visit counts and types this period ("X onsite visits: Y full monitoring evaluations and Z record review visits"), what full evaluations included (observations of care, formal and informal resident and staff interviews, attendance at clinical and QAPI meetings, medical record reviews), and the standing monthly contact with agency leadership.
+2. What each onsite visit included (clinical meeting attendance: morning meeting, afternoon wrap-up, QAPI meetings; record review focus areas), closing with "The findings from these activities are described below."
 
 ## Hard rules
 
-- ONE draft, not three — the deliberation happened in the body sections.
-- No compliance verdicts ("non-compliant", "substantial compliance", "in violation" are forbidden). Use "evidence consistent/inconsistent with the requirements".
-- No "spirit of", "pervasive", "systemic failure", "alarming", "egregious", "must improve", "we conclude".
-- Every example cites (obs_id, date).
-- Do not introduce any finding that is not in a body section. The summary summarizes; it never adds.
+- Match the prior reports' Executive Summary nearly sentence-for-sentence in structure — continuity across filings matters to the court. Update facts (dates, counts, period); do not restructure.
+- The trajectory statement must be supportable by the finished care-area sections' Compliance Determinations. If most areas regressed, "continue to make progress" would be false — flag the tension to the team instead of writing it.
+- No observation IDs, no resident names, no staff names.
+- No new findings — the front matter orients; it never introduces material absent from the body.
