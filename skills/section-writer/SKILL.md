@@ -2,36 +2,44 @@
 name: section-writer
 description: >-
   Drafts one care-area section of the court-monitoring report (the federal
-  consent-decree compliance report on the state veterans homes) so it matches
-  the filed report's flat declarative voice, structure, and evidence-driven
-  density. Use when a monitor asks to draft, write, or revise a single care-area
-  section (e.g. General Medical & Nursing Care, Vascular Wounds & Pressure
-  Injuries, Medication Administration, Falls, QAPI, Infection Prevention,
-  Staffing, Emergency Operations, Resident Care Plans, Changes in Condition,
-  Clinical Care Policies, Oversight of Medical Care, Organizational
-  Accountability) for a given facility and reporting period. Also use when asked
-  to produce the Compliance Determination paragraph and status table for a
-  section, weave a Baseline Report comparison in, or fix a draft that
-  "editorializes," "doesn't match the filed reports," or "has bracket tags in
-  the prose." Produces ONE section. Do NOT use for the Executive Summary,
-  Introduction, or full-report assembly.
+  consent-decree compliance report on the state veterans homes) in the team's
+  paragraph-ordered standard: the section walks the measure's Consent Decree
+  paragraphs in number order, gives each one a labeled block
+  ("Paragraph 33 — Assessment and documentation. ...") that synthesizes that
+  paragraph's evidence, marks any paragraph with no evidence as a NO EVIDENCE
+  placeholder, then closes with the Compliance Determination, the three-row
+  status table, and a sectioned NOTES-TO-THE-MONITOR block. Matches the filed
+  report's flat declarative voice. Use when a monitor asks to draft, write, or
+  revise a single care-area section (e.g. General Medical & Nursing Care,
+  Vascular Wounds & Pressure Injuries, Medication Administration, Falls, QAPI,
+  Infection Prevention, Staffing, Emergency Operations, Resident Care Plans,
+  Changes in Condition, Clinical Care Policies, Oversight of Medical Care,
+  Organizational Accountability) for a given facility and reporting period. Also
+  use when asked to produce the Compliance Determination paragraph and status
+  table for a section, weave a Baseline Report comparison in, or fix a draft
+  that "editorializes," "goes into too much detail," "isn't organized by
+  paragraph," or "has bracket tags in the prose." Produces ONE section. Do NOT
+  use for the Executive Summary, Introduction, or full-report assembly.
 ---
 
 # Section Writer
 
-You draft a single care-area section of the court-monitoring report so it is **indistinguishable from the team's filed reports**. The reader is a federal court. The author is "the monitoring team." You produce one complete section: narrative findings, a `Compliance Determination:` paragraph, and a three-row status table — then, after a hard fence, a single NOTES-TO-THE-MONITOR block.
+You draft a single care-area section of the court-monitoring report so it is **indistinguishable from the team's filed reports**. The reader is a federal court. The author is "the monitoring team." The section is **paragraph-ordered**: it walks the measure's Consent Decree paragraphs in number order, gives each one a labeled, synthesized block, then closes with a `Compliance Determination:` paragraph, a three-row status table, and — after a hard fence — a sectioned NOTES-TO-THE-MONITOR block.
 
-Two failures are equally fatal: a draft that **invents facts the source does not contain**, and a draft that **editorializes, argues, or pads** instead of stating findings flatly. This skill exists to prevent both.
+Three failures are equally fatal: a draft that **invents facts the source does not contain**; a draft that **editorializes, argues, or pads** instead of stating findings flatly; and a draft that **buries the section in record-by-record detail** instead of synthesizing each paragraph's evidence. This skill exists to prevent all three.
+
+**Study `gold-standard-sections.md` (bundled with this skill) before drafting.** It is the concrete model — the paragraph-ordered exemplar, the NO EVIDENCE placeholder in action, the sectioned NOTES block, and the voice library. Match its structure, density, and register; fill it with the facts from the source file at hand.
 
 ---
 
 ## 0. Your inputs and what each one is for
 
-You are given exactly three things:
+You are given:
 
-1. **The care-area source file** — the full, names-removed observation detail for this one facility and this one care area. **This is your ONLY source of facts.** Every resident detail, quote, number, date, drug name, percentage, named incident, and program reference in your prose must trace to an item in this file.
-2. **The prior filed report** — for VOICE, STRUCTURE, DENSITY, and the prior period's GRADES only. **It is NOT a source of facts.** The current evidence covers a later reporting period than the filed report, so the current facts will legitimately differ. Never reproduce a fact from the filed report. Mine it only for: how sentences are shaped, how sections are ordered, how long a section of this type runs, the exact determination boilerplate wording, and what this paragraph was graded last period.
-3. **This rulebook.**
+1. **The care-area source file** — the full, names-removed observation detail for this one facility and this one care area. **This is your ONLY source of facts.** Every resident detail, quote, number, date, drug name, percentage, named incident, and program reference in your prose must trace to an item in this file. Each observation carries a `Record # | obs ID` header.
+2. **The Consent Decree reference** (`consent-decree-paragraphs.md`) — the verbatim text of every paragraph in the measure. **This is where each block's topic title comes from, and the list of every paragraph the section must cover** — including paragraphs with no evidence this period. It is a source of *requirement language*, never of facts about the facility.
+3. **The prior filed report** — for VOICE, STRUCTURE, DENSITY, and the prior period's GRADES only. **It is NOT a source of facts.** The current evidence covers a later reporting period than the filed report, so the current facts will legitimately differ. Never reproduce a fact from the filed report. Mine it only for: how sentences are shaped, the exact determination boilerplate wording, and what each paragraph was graded last period.
+4. **This rulebook** and **`gold-standard-sections.md`.**
 
 If the source file is missing or covers a different care area than requested, stop and say so.
 
@@ -41,7 +49,7 @@ If the source file is missing or covers a different care area than requested, st
 
 **Write only from the care-area source file. No fact appears in the prose unless it traces to an item in that file.**
 
-This governs every other instruction below. When any other section's guidance ("pair data with a benchmark," "weave the Baseline," "name the regulatory authority") would require a fact the source file does not contain, **you do not supply that fact** — you write the part you can support and record the gap in the NOTES-TO-THE-MONITOR block (§9).
+This governs every other instruction below. When any other section's guidance ("pair data with a benchmark," "weave the Baseline," "name the regulatory authority") would require a fact the source file does not contain, **you do not supply that fact** — you write the part you can support and record the gap in the NOTES block (§10).
 
 Specifically, never invent or infer:
 - resident details, clinical particulars, or quotes;
@@ -51,7 +59,9 @@ Specifically, never invent or infer:
 - a Baseline Report comparison the source does not document;
 - a compliance grade the source cannot support.
 
-If the source says "no evidence this window" for a provision, that is not a fact you can dress up — it is a gap to flag in NOTES. **A plausible-sounding sentence with no source is a fabrication.** When in doubt, leave it out and flag it.
+If the source says "no evidence this window" for a provision, that is not a fact you can dress up — it is a NO EVIDENCE block (§4) and a carry-forward note. **A plausible-sounding sentence with no source is a fabrication.** When in doubt, leave it out and flag it.
+
+**The one thing you may write without facility evidence is the topic title.** `Paragraph 32 — Specialized clinical services.` restates what the decree *requires*, drawn from `consent-decree-paragraphs.md`. It is never a finding and is safe even when there is no evidence.
 
 ---
 
@@ -59,7 +69,7 @@ If the source says "no evidence this window" for a provision, that is not a fact
 
 The team **states findings**. It does not build an argument, draw out implications, or editorialize about clinical consequences. Short declarative sentences. The filed report reads like a careful auditor recording what was observed, not like an essay persuading the court.
 
-Write as **"the monitoring team"** (occasionally "the monitor" or "monitors"). Third person only — never "I," "we," or "you." The facility is named as the subject of many sentences ("[Facility] staff inconsistently complete fall risk assessments…"). The team performs verbs of perception and record: *observed, reviewed, found, noted, confirmed, interviewed, requested, discussed, will continue to monitor*.
+Write as **"the monitoring team"** (occasionally "the monitor" or "monitors"). Third person only — never "I," "we," or "you." The facility is named as the subject of many sentences. The team performs verbs of perception and record: *observed, reviewed, found, noted, confirmed, interviewed, requested, discussed, will continue to monitor*.
 
 ### Sourced example phrasings (pattern-match the shape, fill with YOUR source's facts)
 - "[Facility] staff inconsistently complete fall risk assessments and do not always adhere to the required schedule."
@@ -67,7 +77,6 @@ Write as **"the monitoring team"** (occasionally "the monitor" or "monitors"). T
 - "The monitoring team reviewed [N] medical records; [n] documented weekly skin assessments when due, while the remaining [n] showed gaps."
 - "The monitoring team discussed this finding with the DON, who reported [what they reported]."
 - "The monitoring team could not determine whether [X] or [Y]."
-- "The monitoring team will continue to monitor."
 - "The Baseline Report documented [X]. This system remains in place." (only if the source supports both halves)
 
 ### Ban: essayistic build and consequence-editorializing
@@ -78,134 +87,142 @@ Do **not** argue toward a conclusion or speculate about downstream harm. Cut phr
 - "this is concerning because it could lead to…"
 - "alarmingly," "egregious," "unacceptable," "shockingly."
 
-State the deviation plainly and stop. The filed report writes "Standard of practice requires documenting medications at the time of administration." — a flat statement of the standard, not an argument about what might go wrong. If the source itself records a consequence or a standard, you may restate it flatly; you may not manufacture one.
-
-A clinical-significance note is allowed ONLY when it is a plain, source-grounded statement of the established standard ("Per usual and customary practice, nurses should document treatments as they complete them"), not a rhetorical escalation.
+State the deviation plainly and stop. If the source itself records a consequence or a standard, you may restate it flatly; you may not manufacture one. A clinical-significance note is allowed ONLY as a plain, source-grounded statement of the established standard ("Per usual and customary practice, nurses should document treatments as they complete them"), not a rhetorical escalation.
 
 ### Ban: external-literature citation
-Do not cite AHRQ, NIH percentile thresholds, CFR sections, or any external clinical authority **unless that citation appears verbatim in the source file**. The filed prose attributes standards plainly ("Standard of practice requires…," "Regulatory requirements mandate…") without invented external references.
+Do not cite AHRQ, NIH percentile thresholds, CFR sections, or any external clinical authority **unless that citation appears verbatim in the source file**.
 
 ### Other voice anti-patterns
-- **No promotional adjectives:** never "robust," "seamless," "cutting-edge," "game-changing." Earned positives only, and only where the source supports them: "positive results," "significant improvement."
-- **No filler hedges:** no "it is important to note that," no "furthermore, it is worth considering."
+- **No promotional adjectives:** never "robust," "seamless," "cutting-edge." Earned positives only, where the source supports them.
+- **No filler hedges:** no "it is important to note that."
 - **No contractions** — write "do not," "did not," "cannot." (Quoted source material keeps its original form.)
-- **No bullet lists inside narrative findings.** Findings and judgment go in full paragraphs. Bullets are only for genuinely enumerable inventory the source provides (e.g. an Emergency Preparedness equipment list).
-- **No rhetorical questions, no "In conclusion."** Transitions are concrete and dated where the source gives a date ("During the [month/year] onsite visit," "During a separate visit").
-- **No vague quantities when the source gives an exact one** ("many," "a lot," "some records" — use the source's denominators and dates). If the source itself is vague, stay as specific as the source and no more.
+- **No bullet lists inside a paragraph block.** Findings and judgment go in prose. Bullets are only for genuinely enumerable inventory the source provides (e.g. an Emergency Preparedness equipment list).
+- **No rhetorical questions, no "In conclusion."** Transitions are concrete and dated where the source gives a date.
+- **No vague quantities when the source gives an exact one.** Use the source's denominators and dates. If the source itself is vague, stay as specific as the source and no more.
 
 ### The concessive pivot, used sparingly
-Where the source supports both a credit and a residual concern, **Despite / However / While** can pivot from one to the other. Use it only when both halves are in the source — not to manufacture balance.
-
-> "However, one new resident who fell approximately one week after admission did not receive the required post-incident fall risk assessment."
-
-Do not write "on the one hand… on the other." Sequence the facts as the source presents them.
+Where the source supports both a credit and a residual concern, **Despite / However / While** can pivot from one to the other — only when both halves are in the source, not to manufacture balance. Sequence the facts as the source presents them.
 
 ---
 
-## 3. Section structure
+## 3. Section structure — paragraph-ordered (the spine)
 
-Every care-area section has the same architecture: **narrative findings → `Compliance Determination:` paragraph → three-row status table → NOTES-TO-THE-MONITOR fence.**
+Every care-area section has the same architecture:
 
-### Heading
-Care-area heading is **bold + underlined**, using the exact filed care-area name (e.g. "Vascular Wounds & Pressure Injuries," "Infection Prevention Detection & Control," "Falls").
+**Working header → coverage line → one block per CD paragraph (ascending) → `Compliance Determination:` paragraph → three-row status table → NOTES-TO-THE-MONITOR fence.**
 
-### Opening — start with the current finding
-Most filed sections **open directly with the current-window finding**, with the facility as subject:
-> "[Facility] staff inconsistently complete fall risk assessments and do not always adhere to the required schedule of admission, quarterly, and as-needed assessments."
+### Working header
+`Section [Letter] — [Care Area] [DRAFT]`, using the exact filed care-area name. The `[Letter]` tag and `[DRAFT]` marker are working aids removed at assembly.
 
-Where the area is going well, open with the system the facility maintains:
-> "[Facility]'s licensed, credentialed, and well-qualified Medical Director continues to provide consistent, competent, and appropriate supervision of clinical services."
+### Coverage line
+One sentence, immediately under the header, naming which paragraphs of the measure carry current evidence and noting that any with no evidence appear as placeholder blocks and carry forward. Example:
+> "CD paragraphs covered by current evidence: 30, 33, 34, 35, 36, 37, 38. Paragraphs 31 and 32 had no new evidence this period; each appears below as a placeholder block and its prior status carries forward pending the monitors' review."
 
-**Do not make a Baseline recap the default opener.** Open with what is true now.
+### The per-paragraph block — the unit of the section
+For **every** paragraph in the measure, in ascending order, write one block:
 
-### Baseline — woven sparingly, only where it earns its place
-"The Baseline Report" is a comparative anchor used **only where the source documents a genuine then-vs-now story** (clear progress, or clear persistence). It is not required in every section; many filed sections never mention it. When you use it, it is usually the subject of a sentence, immediately followed by current status — and **both halves must come from the source** ("The Baseline Report documented the Intranet system… This system remains in place"). If the source contains no baseline comparison for this area, write none.
+```
+Paragraph [NN] — [Topic]. [Synthesized narrative.]
+```
 
-### Evidence-driven sub-topics — only where the threads are genuinely separable
-Italic sub-topic headers are bespoke, not a master list. Use them only when the care area has several distinct threads worth signposting and the source supplies evidence for each. Most areas (Falls, Vascular Wounds, Medication Administration, Infection Prevention, QAPI, Emergency Operations, Oversight of Medical Care) flow as continuous prose with no sub-topics. General Medical & Nursing Care is the area most likely to warrant them. If a thread has distinct evidence, signpost it; otherwise, continuous prose.
+- **`Paragraph [NN]`** — plain number with sub-letters/romans preserved (30, 49a, 49d-ii, 66a-j); strip only the internal taxonomy section-letter prefix (A.30 → 30). The number heading is bold.
+- **`[Topic]`** — the CD requirement restated in 2–5 words, drawn from `consent-decree-paragraphs.md`. It names *what the paragraph is supposed to show* (¶30 = "Appropriate clinical care," ¶37 = "Electronic medical records," ¶33 = "Assessment, documentation, and clinical scrutiny"). It is never a finding.
+- **`[Synthesized narrative]`** — a focused account of that paragraph's evidence (§5). Most blocks are one paragraph; the most-evidenced provision may run two. Open with a framing sentence that previews the block's threads, then deliver the sourced specifics. Where credit and concern both exist for the paragraph, hold both in the block, sequenced as the source presents them.
 
----
+The body runs in paragraph order; the table (§9) re-sorts the same graded paragraphs by status. **Do not** organize by bespoke italic sub-topics, and do not write the section as one continuous flow — the CD paragraph is the spine. (This replaces the older continuous-prose structure entirely.)
 
-## 4. Density matches the evidence — no imposed length target
-
-**Section length is driven by how much real evidence the source file contains, not by a target.** Do not pad a thin area to look dense, and do not bloat any area with editorializing.
-
-- Some filed sections are spare — roughly seven short paragraphs, ~500–550 words — because that is all the evidence supports. Oversight of Medical Care and Infection Prevention often read this way: confident, flat affirmations grounded in systems and interviews, with few or no record-review tallies.
-- Data-heavy areas (Staffing, Vascular Wounds, and others with CMS/PBJ figures **in the source**) run longer because they genuinely carry that data.
-
-The number of "the monitoring team reviewed a record and found…" examples scales with the evidence the source provides — not with an idea of how long the section "should" be. A substantially compliant area with little record-level deficiency evidence is correctly short. Length is an output of the evidence, never an input.
+### One section, not multiple options
+Produce ONE drafted section in this structure. Do not generate alternative organizations to choose from.
 
 ---
 
-## 5. Turning observations into prose
+## 4. The NO EVIDENCE placeholder (every paragraph gets a block)
 
-### Three moves, all sourced
+A paragraph in the measure with no supporting evidence in the source file **still gets a block**, as a placeholder:
+
+```
+Paragraph [NN] — [Topic]. NO EVIDENCE.
+```
+
+- The **Topic** comes from `consent-decree-paragraphs.md` (the requirement in a few words). The line is literally the topic followed by `NO EVIDENCE.` — no narrative, no speculation, no invented finding.
+- This makes the section a **complete in-order audit of the whole measure**: a monitor scanning the blocks sees instantly which paragraphs were addressed and which had no evidence this period.
+- **Grading:** a NO EVIDENCE paragraph is not graded from this period. It carries its prior-period grade forward and is **left out of the current table body**; record the carry-forward in NOTES (§9, §10) for the monitors to confirm. Never assign a fresh grade to a paragraph you marked NO EVIDENCE.
+- Use NO EVIDENCE only when the source genuinely contains nothing for that paragraph. Thin-but-present evidence gets a real (short) block plus a thin-evidence flag in NOTES — not a NO EVIDENCE placeholder.
+
+---
+
+## 5. Density — synthesize each paragraph, do not enumerate
+
+This is the fix for "too much detail." Each block is a **synthesis** of its paragraph's evidence, not a record-by-record walk.
+
+- **Fold many observations into one coherent account.** When ten record reviews bear on ¶33, the block states the pattern with a few exact, representative figures ("across 26 ordered dates only approximately 54% had corresponding EMR entries; six of twelve expected entries missing in one case; eleven missing across three months in another") — it does not narrate all ten reviews in sequence.
+- **The granular record-level detail belongs in the crosswalk** (§10), not the prose. The prose carries the finding and its most telling specifics; the crosswalk carries every Record # behind it. If you feel the urge to recite another record in the prose, add a crosswalk line instead.
+- **Density is per-block and tracks the evidence.** The most-evidenced paragraph is the longest block; a thinly-evidenced paragraph is three or four sentences; a no-evidence paragraph is a one-line placeholder. Do not pad a thin block and do not bloat a rich one with editorializing. Length is an output of the evidence, never an input.
+- **Exact X-of-N, as the source gives it** ("required assessments missing in five" of six). Never round, vague, or interpolate. Where the source supplies a figure, embed it with the comparator and period the source itself states.
+
+**External data the source does not contain** — CMS MDS 3.0 QM percentages, PBJ staffing tables, Facility Assessment / Emergency Plan inventories, audit percentages, policy-standardization counts — lives in documents outside the observation evidence. When a block would normally include such data and the source does not supply it, **do not invent a number and do not put a bracket tag in the prose.** Write the surrounding prose without the figure and record the specific need in NOTES (§10).
+
+---
+
+## 6. Turning observations into a block — three moves, all sourced
+
 1. **The concrete observed fact**, in plain past tense, exactly as the source records it.
 2. **The monitoring follow-up and facility response** — who it was discussed with, what was requested, what remains open — only as the source documents it.
 3. A **plain statement of the established standard** only if the source states it. Do not add a speculative consequence.
 
 > "One TAR lacked any initials indicating completion for treatments scheduled on a weekend 3-11 shift. The monitoring team discussed this with the DON, who determined an agency nurse was responsible. The DON contacted the agency nurse, who reported completing all treatments despite the missing documentation. Per usual and customary practice, nurses should document treatments as they complete them."
 
-### Quote-and-record
-A verbatim staff statement or document line from the source, set in quotation marks, followed by the flat factual outcome the source records — not by editorial reasoning.
+**Quote-and-record:** a verbatim staff statement or document line from the source, in quotation marks, followed by the flat factual outcome the source records — not by editorial reasoning.
 
-### Data — only what the source contains, paired with the comparator the source gives
-When the source file contains a figure, embed it with the comparator and period the source itself states:
-> "The MDS 3.0 Facility-Level QM Report for Report Period [dates from source] shows the facility-adjusted percentage of residents with falls was [X]%, compared to state and national averages of [Y]% and [Z]%, respectively. The facility's percentile ranking is [N]th, meaning [N]% of other facilities performed better while [100−N]% performed the same or worse."
-
-Report record-review tallies in exact X-of-N form **as the source gives them** ("50 of 55 observations confirmed appropriate 30-minute rounds"). Never round, vague, or interpolate.
-
-**External data the source does not contain** — CMS MDS 3.0 QM percentages, PBJ staffing tables, Facility Assessment / Emergency Plan inventories, hand-hygiene/PPE audit percentages, policy-standardization counts — lives in documents outside the observation evidence. When a section would normally include such data and the source does not supply it, **do not invent a number and do not put a bracket tag in the prose.** Write the surrounding prose without the figure, and record the specific need in NOTES-TO-THE-MONITOR (§9).
+**Baseline, woven sparingly:** invoke "The Baseline Report" inside a block **only where the source documents a genuine then-vs-now story** (clear progress or clear persistence), and only where both halves are sourced. Most blocks never mention the Baseline. (Use the `baseline-comparison` skill to add these systematically.)
 
 ---
 
-## 6. Anonymization (hard rule)
+## 7. Anonymization (hard rule)
 
 - **Residents are NEVER named or numbered.** Reference generically — "a resident," "one resident," "another resident's record." Carry identity through clinical particulars the source provides. Gender pronouns are allowed; names and numbers are not.
 - **Staff are referenced strictly by role/title:** "the Director of Nursing (DON)," "the Medical Director," "the Infection Preventionist (IP)," "the CEO." Departures by role and date only, and only as the source records them.
-- **No observation IDs in report text.** The source file's internal obs IDs are never surfaced.
+- **No observation IDs in report text.** The source file's internal obs IDs and Record #s are never surfaced above the fence — they live only in the crosswalk.
 - Proper names that ARE allowed: the facility itself, and named outside contractors/vendors where the source names them.
 
 ---
 
-## 7. Stating concerns and crediting progress
+## 8. Stating concerns and crediting progress
 
 ### Concerns
-Name the deviation → ground it in the specific observed record from the source → stop, or pair it with the facility's responsive action **if the source records one**. Do not append a speculative harm. Escalate to systemic framing ("These issues represent a systemic lapse…") only where the source's pattern genuinely supports it — and even then, flatly.
+Name the deviation → ground it in the specific observed record from the source → stop, or pair it with the facility's responsive action **if the source records one**. Do not append a speculative harm. Escalate to systemic framing only where the source's pattern genuinely supports it — and even then, flatly.
 
 ### Progress
-Credit specifically, anchored to a named program, audit, or role **that appears in the source** ("In June, audits showed positive results: 50 of 55 observations confirmed appropriate 30-minute rounds"). Commend a person only for concrete behavior the source documents. Never credit vibes, and never invent a program to credit.
+Credit specifically, anchored to a named program, audit, or role **that appears in the source**. Commend a person only for concrete behavior the source documents. Never credit vibes, and never invent a program to credit.
 
 ---
 
-## 8. The Compliance Determination block
+## 9. The Compliance Determination block
 
 ### The paragraph
 Begins with the bold run `Compliance Determination:` followed by the boilerplate sentence **in the exact wording the filed report uses for THIS measure**. The boilerplate is not uniform across measures — match each measure's actual filed wording, including whether it says "and discussions."
 
 - **Falls** (filed wording, no "and discussions"):
   > **Compliance Determination:** Based on the above observations the [Facility] facility has not reached substantial compliance with the Falls requirements outlined in the Consent Decree. The table below details the compliance status for each provision within this Remedial Measure.
-- **Medication Administration** (filed wording, no "and discussions"):
-  > **Compliance Determination:** Based on the above observations the [Facility] facility has not reached substantial compliance with the Medication Administration requirements outlined in the Consent Decree. The table below details the compliance status for each provision within this Remedial Measure.
+- **Medication Administration** (no "and discussions"): same shape, "Medication Administration requirements."
 - **Oversight and Management of Medical Care** (reached compliance):
   > **Compliance Determination:** Based on the above observations the [Facility] facility has reached substantial compliance with the Oversight and Management of Medical Care requirements outlined in the Consent Decree. …
 - **Infection Prevention Detection & Control** ("set forth in"):
   > **Compliance Determination:** Based on the above observations [Facility] has reached substantial compliance with the Infection Prevention, Detection & Control requirements set forth in the Consent Decree. …
 
-If you do not have the filed boilerplate for the measure you are drafting, use the closest filed example, write the verdict you can support, and flag the exact-wording check in NOTES. The verdict verb ("has not reached" / "has reached" / "has not yet reached") must follow §8.1, never be guessed.
+If you do not have the filed boilerplate for the measure you are drafting, use the closest filed example, write the verdict you can support, and flag the exact-wording check in NOTES.
 
-### 8.1 Determinations are proposals anchored to real inputs
-A draft determination is a **proposal**, derived from only two inputs:
-1. the **actual current-window findings** in the source file, and
-2. the **prior period's grade** for that paragraph (from the prior report), for continuity.
-
-Never argue a grade from invented evidence. If the source supports a confident grade, propose it. If the source does **not** support a confident grade (e.g. "no evidence this window," or evidence too thin to move off the prior grade), **do not guess** — carry the prior grade forward if continuity is reasonable, and record the uncertainty in NOTES for the monitors to decide. Determinations must not whipsaw from the prior report without a stated, sourced reason.
+### 9.1 Determinations are proposals anchored to real inputs
+A draft determination is a **proposal**, derived from only two inputs: the **actual current-window findings** in the source file, and the **prior period's grade** for that paragraph (for continuity). Never argue a grade from invented evidence. If the source supports a confident grade, propose it. If it does not, **do not guess** — carry the prior grade forward and record the uncertainty in NOTES.
 
 **The table and the NOTES must never contradict each other.** If you flag a paragraph's grade as uncertain or unresolved in NOTES, you may NOT assert a new or changed grade for it in the table. For any uncertain paragraph, do exactly one of:
-1. **Carry forward** the prior period's grade unchanged, and add a NOTE: "Carried [paragraph] at prior grade [X]; this window's evidence does not clearly support a change — monitors confirm."
-2. If even the prior grade is now in question (e.g. a prior-Substantially provision now has adverse evidence this window, like a single-room hazard observation against 51g/51i), place the paragraph in a NOTES line under **"Grades the monitors must set"** with the prior grade, the new adverse evidence, and the tension — and **leave that paragraph out of the table body** rather than asserting a grade you cannot defend.
+1. **Carry forward** the prior period's grade unchanged, with a NOTE saying so; or
+2. If even the prior grade is now in question, list the paragraph in NOTES under **"Grades the monitors must set"** with the prior grade, the new adverse evidence, and the tension — and **leave it out of the table body**.
 
 A filed table that commits a grade the drafter privately doubts is worse than an incomplete table. When in doubt, defer in NOTES; never assert.
+
+### 9.2 NO EVIDENCE paragraphs and the table
+A paragraph marked `NO EVIDENCE` (§4) is not graded this period. **Leave it out of the table body** and record its carry-forward in NOTES (prior grade + "no evidence this window — monitors confirm"). Do not place it in a status row.
 
 ### The table
 Always 2 columns, 3 rows, fixed order, fixed header:
@@ -216,7 +233,7 @@ Always 2 columns, 3 rows, fixed order, fixed header:
 | Partially Compliant | |
 | Substantially Compliant | |
 
-- Sort each Consent Decree paragraph for this Remedial Measure into exactly one row, per §8.1. Leave rows blank where empty (Non-Compliant is blank in nearly every filed table).
+- Sort each **graded** Consent Decree paragraph into exactly one row, per §9.1–§9.2. Leave rows blank where empty (Non-Compliant is blank in nearly every filed table).
 - The paragraph sets are largely parallel between facilities but **not identical** — grade to this facility's source and prior grades; do not copy the other facility.
 
 ### Paragraph numbering rule
@@ -227,75 +244,62 @@ Strip ONLY the internal taxonomy section-letter prefix. **PRESERVE consent-decre
 | A.30 | 30 |
 | D.49a | 49a |
 | D.49d.ii | 49d-ii |
-| D.49d.i(1-9) | 49d-i(1-9) |
 | F.56a–h | 56a-h |
 
-Collapsing 49a/49b/49c into "49" is wrong — preserve sub-paragraph granularity. (Filed Falls table, for calibration: Partially Compliant — 51a, 51b, 51c, 51f; Substantially Compliant — 51d, 51e, 51g, 51h, 51i.)
+Collapsing 49a/49b/49c into "49" is wrong — preserve sub-paragraph granularity.
 
 ---
 
-## 9. NOTES TO THE MONITOR — the single drafting-aids fence (most important rule)
+## 10. NOTES TO THE MONITOR — the single, sectioned drafting-aids fence (most important rule)
 
-**The report prose above the fence must be clean, file-ready text.** It contains NO inline `[DATA NEEDED]` tags, NO "grading notes," NO "thin-evidence flag," NO references to this skill's section numbers, NO bracketed reminders of any kind. A monitor must be able to copy everything above the fence straight into the filing.
+**The prose above the fence must be clean, file-ready text.** No inline `[DATA NEEDED]` tags, no grading notes, no thin-evidence flags, no skill-section references, no observation IDs, no bracketed reminders of any kind. A monitor must be able to copy everything above the fence straight into the filing.
 
-Put **every** drafting aid in ONE clearly-fenced block at the very end of your output, after the table, labeled exactly:
+Put **every** drafting aid in ONE clearly-fenced block at the very end, after the table, labeled exactly:
 
 ```
 — NOTES TO THE MONITOR (delete before filing) —
 ```
 
-Into that block go, and only there:
-- **Source-observation crosswalk** (always include — see below). The verification index tying this section back to the underlying records.
-- **Missing external-data needs**, stated specifically, e.g. "Insert the Q[ ] MDS pressure-ulcer QM adjusted % + state/national comparison + percentile + baseline-period delta here, from the CMS MDS 3.0 QM Report — the observation source does not contain it."
-- **Determination rationale and any uncertainty** — which findings and which prior grade drove the proposed grade for each paragraph, and where the source is too thin to grade confidently, deferred to the monitors per §8.1.
-- **Boilerplate-wording confirmations** if you did not have the filed boilerplate for this measure.
-- **Open questions for the monitors** (placement decisions, whether a thread belongs in another section).
-- **Thin-evidence and missing-input flags**, including a missing prior-report grade or a care area whose source had no baseline comparison.
+Organize it into these named subsections, **in this order** (see `gold-standard-sections.md`, Exemplar 2, for the filled model):
 
-### 9.1 Source-observation crosswalk (always include)
+1. **PURPOSE OF THIS SECTION** — care area, CD paragraph range, internal tag prefix, facility; the single source file drafted from, with observation count and date span; an affirmation that no facts were imported from the filed reports.
+2. **DETERMINATION RATIONALE** — one line per graded paragraph: the proposed grade (labeled a PROPOSAL), what drove it, and a "CONSIDER [grade]:" alternative wherever a harder grade is arguable. Include the NO EVIDENCE / carry-forward paragraphs here too.
+3. **PRIOR-PERIOD GRADE CONTINUITY — REQUIRED** — instruct the monitor to pull the prior report's paragraph-level grades and confirm trajectory; note where a proposal would conflict with the prior anchor. Do not manufacture a Baseline comparison.
+4. **MISSING / EXTERNAL DATA TO SUPPLY** — each external figure or document the prose needs but the observations do not contain (CMS QM %, PBJ tables, audit results, records requested-but-not-produced), stated specifically. Never invented.
+5. **SCOPE / OVERLAP NOTES** — findings deliberately not drafted here because they belong to another care-area section, and any double-counting to watch at assembly.
+6. **ANONYMIZATION CONFIRMED** — the staff name→role conversions applied; any source data-quality flags; confirmation that no resident names, case/docket number, or observation IDs appear above the fence.
+7. **SOURCE-OBSERVATION CROSSWALK** — the verification index. One line per observation the section's findings draw on: `Rec#… | obs … | date | type | one-line of what it contributed → ¶¶…`. **Every substantive finding in the prose must trace to at least one line here** — this is your own fabrication check; an untraceable finding does not belong in the draft. Record#/obs IDs appear ONLY here.
+8. **RECONCILIATION QUESTIONS FOR THE MONITOR** — a numbered list: lock the grades, resolve any flagged Partial-vs-Non-Compliant or defer-vs-grade question, confirm prior grades and carry-forwards, supply the flagged external data, and any section-specific confirmations.
 
-Inside the NOTES block, include a subsection titled **"Source observations used in this section."** Each observation in the source file carries a `Record #… | obs ID …` header — list every observation this section's findings draw on, in this form:
-
-```
-Source observations used in this section:
-- Record #65 | obs 1769628530441 — 2026-01-28, Medical Record Review — supports the assessment-gap findings (¶51a): high-risk resident with no fall risk assessment in the review period.
-- Record #… | obs … — <date>, <type> — supports <paragraph(s)> / <one-line of what it contributed>.
-- (continue for every observation drawn upon)
-```
-
-This is the monitors' verification crosswalk: it lets them trace any statement in the section back to the underlying record (then, if needed, to the full names-removed analysis or the original record via the Record #). Two hard requirements:
-1. **Every substantive finding in the prose must trace to at least one observation in this list.** If you cannot tie a finding to a source observation, the finding does not belong in the draft — remove it. This list is your own fabrication check.
-2. **Record #/obs IDs appear ONLY here, never in the filed prose above the fence.**
-
-If there are no aids needed beyond the crosswalk, the crosswalk alone is the NOTES block. Nothing above the fence is ever a note to the monitor; nothing below it is ever filed prose.
+Nothing above the fence is ever a note to the monitor; nothing below it is ever filed prose.
 
 ---
 
-## 10. Hard rules (non-negotiable)
-1. **Write only from the source file.** No fact — detail, quote, number, date, drug, percentage, named incident, citation — appears in the prose without a source. When other guidance needs a fact you lack, write around it and flag it in NOTES.
-2. **The prior filed report is voice/structure/grades only, never a source of facts.** The current period differs.
-3. **State findings flatly.** No essayistic build, no consequence-editorializing, no external-literature citation unless it is in the source.
-4. **All drafting aids go below the `— NOTES TO THE MONITOR (delete before filing) —` fence.** Prose above is clean and file-ready. No inline bracket tags or scaffolding anywhere above the fence.
-5. **Density matches the evidence.** No padding, no imposed length, no manufactured concerns.
-6. **Baseline woven sparingly,** only where the source documents a real then-vs-now story.
-7. **Determinations are proposals** from current findings + prior grades; uncertain ones are deferred to the monitors in NOTES, never guessed.
-8. **Match each measure's actual filed boilerplate** (e.g. Falls has no "and discussions"); confirm in NOTES if unknown.
-9. **Residents anonymous; staff by role/title; no observation IDs.**
-10. **Quote source language verbatim** in quotation marks; no contractions in the team's own prose.
+## 11. Hard rules (non-negotiable)
+1. **Write only from the source file.** No fact appears in the prose without a source. The topic title is the one exception — it restates the decree requirement.
+2. **Paragraph-ordered.** One block per CD paragraph in the measure, ascending; `Paragraph NN — Topic.` then synthesized narrative. No bespoke sub-topic structure, no continuous-prose organization.
+3. **Every paragraph gets a block;** no-evidence paragraphs are `Topic. NO EVIDENCE.` placeholders, carried forward in NOTES, left out of the table body.
+4. **Synthesize, do not enumerate.** Each block is a focused synthesis; record-level detail lives in the crosswalk. Density tracks the evidence per block.
+5. **State findings flatly.** No essayistic build, no consequence-editorializing, no external-literature citation unless it is in the source.
+6. **The prior filed report is voice/structure/grades only, never a source of facts.**
+7. **All drafting aids go below the `— NOTES TO THE MONITOR (delete before filing) —` fence**, organized into the eight named subsections. Prose above is clean and file-ready.
+8. **Determinations are proposals** from current findings + prior grades; uncertain ones are deferred to the monitors in NOTES, never guessed; the table never contradicts the NOTES.
+9. **Match each measure's actual filed boilerplate** (e.g. Falls has no "and discussions"); confirm in NOTES if unknown.
+10. **Residents anonymous; staff by role/title; no observation IDs or Record #s above the fence.** Quote source language verbatim; no contractions in the team's own prose.
 
 ---
 
-## 11. Final self-check before delivering
-- [ ] Every fact in the prose traces to the source file. Nothing carried over from the prior filed report.
-- [ ] Prose above the fence is clean: no `[DATA NEEDED]`, no grading notes, no thin-evidence flags, no skill-section references, no bracket tags.
-- [ ] A single `— NOTES TO THE MONITOR (delete before filing) —` block holds all aids, missing-data needs, determination rationale, uncertainty, and questions.
-- [ ] Voice is flat and declarative — no "raises questions about," no "potentially interferes," no "preventable harm" editorializing, no external citations not in the source.
-- [ ] Opener is the current finding (or the maintained system), not a mandatory Baseline recap.
+## 12. Final self-check before delivering
+- [ ] Header + a coverage line naming covered vs. no-evidence paragraphs.
+- [ ] **Every** CD paragraph in the measure has a block, in ascending order. No paragraph skipped.
+- [ ] No-evidence paragraphs are `Paragraph NN — Topic. NO EVIDENCE.` placeholders; none of them appear in the table; each is carried forward in NOTES.
+- [ ] Each block opens `Paragraph NN — Topic.` with the topic drawn from the decree, then synthesized narrative. No continuous-prose or italic-sub-topic organization.
+- [ ] Blocks synthesize; no record-by-record enumeration. Record #s are in the crosswalk, not the prose. Density tracks each block's evidence.
+- [ ] Every fact in the prose traces to the source file and to a crosswalk line. Nothing carried over from the prior filed report.
+- [ ] Prose above the fence is clean: no `[DATA NEEDED]`, no grading notes, no thin-evidence flags, no skill-section references, no obs IDs/Record #s, no bracket tags.
+- [ ] A single `— NOTES TO THE MONITOR (delete before filing) —` block holds all aids, organized into the eight named subsections in order; the crosswalk lists every observation used.
+- [ ] Voice is flat and declarative — no "raises questions about," no "preventable harm" editorializing, no external citations not in the source; no contractions in the team's prose.
 - [ ] Baseline appears only where the source documents a genuine comparison.
-- [ ] Length matches the evidence — spare where the source is thin, longer only where real data exists. No padding.
-- [ ] Concerns are grounded in source records; facility responses and standards appear only as the source records them.
-- [ ] Record-review tallies use exact X-of-N and the source's dates; no "some" / "many" beyond the source.
-- [ ] No contractions in the team's prose; residents anonymous; staff by role; no obs IDs.
 - [ ] `Compliance Determination:` uses the correct measure's exact boilerplate (Falls: no "and discussions"); verdict verb follows from findings + prior grade.
-- [ ] Table is 3 rows, fixed order; paragraph numbers preserve sub-paragraph letters/romans; only taxonomy section-letter prefixes stripped.
-- [ ] Any determination the source cannot confidently support is deferred to the monitors in NOTES, not guessed.
+- [ ] Table is 3 rows, fixed order; graded paragraphs only; paragraph numbers preserve sub-paragraph letters/romans; only taxonomy section-letter prefixes stripped.
+- [ ] Any determination the source cannot confidently support is deferred to the monitors in NOTES, not guessed; the table and NOTES agree.

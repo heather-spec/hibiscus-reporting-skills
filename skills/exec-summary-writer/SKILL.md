@@ -93,3 +93,17 @@ The two facilities' counts differ; draft each from that facility's real activity
 **The prose above the fence must be clean, file-ready text** — no inline `[DATA NEEDED]` tags, no bracketed reminders, no scaffolding, no skill-section references. A monitor must be able to copy everything above the fence straight into the filing.
 
 Put **every** drafting aid in ONE fenced block at the very end of your output, labeled exactly:
+
+```
+— NOTES TO THE MONITOR (delete before filing) —
+```
+
+Front matter does not carry per-paragraph determinations or a source-observation crosswalk, so it uses a lighter NOTES block than a care-area section. Into it go, and only there:
+
+- **Activity-count confirmations** — every onsite-visit count, the full-evaluation / record-review split, and contact-cadence figure the prose states but you could not confirm from the team's records, listed specifically (e.g. "confirm: X onsite visits at [Facility] this period — Y full evaluations, Z record-review visits").
+- **Trajectory-statement tension** — if the finalized sections' Compliance Determinations do not clearly support the top-line trajectory, say so here and leave the trajectory sentence for the monitors to resolve. Never assert a trajectory the sections do not support.
+- **Unconfirmed Implementation-Plan facts** — any circulation date, named completion measure, or review step you wrote around because you could not confirm it.
+- **Reporting-period / scope confirmations** — the exact period covered and any footnote scope note to verify.
+- **Anonymization confirmation** — that no resident names, `[RESIDENT]` placeholders, staff names, or monitoring-team member names appear above the fence.
+
+The prose above the fence stays clean, file-ready text — no `[DATA NEEDED]` tags, no bracketed reminders, no skill-section references. The fence label must be exactly `— NOTES TO THE MONITOR (delete before filing) —`. Front matter has no per-paragraph crosswalk; do not fabricate one.

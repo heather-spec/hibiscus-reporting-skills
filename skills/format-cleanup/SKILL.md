@@ -1,13 +1,13 @@
 ---
 name: format-cleanup
-description: Assembles the finished monitoring report into one filing-ready document - cover page, table of contents, per-facility blocks in canonical care-area order, consistent headings and sub-topics, and Compliance Determination boilerplate with three-row status tables - WITHOUT changing a single word of the filed prose. Critically, it detects and removes each section's "NOTES TO THE MONITOR (delete before filing)" fence so scaffolding never reaches the filing, and warns when a section still carries one (the monitor has not finished reconciliation). Use when the user says the report is done and needs assembly, formatting, cleanup for Google Docs, NOTES-block removal, or filing preparation.
+description: Assembles the finished monitoring report into one filing-ready document - cover page, table of contents, per-facility blocks in canonical care-area order, consistent per-paragraph block headings ("Paragraph NN — Topic."), and Compliance Determination boilerplate with three-row status tables - WITHOUT changing a single word of the filed prose. Critically, it detects and removes each section's "NOTES TO THE MONITOR (delete before filing)" fence so scaffolding never reaches the filing, warns when a section still carries one (the monitor has not finished reconciliation), and warns when a section still carries an unresolved "NO EVIDENCE" placeholder block (the monitor has not resolved the carry-forward). Use when the user says the report is done and needs assembly, formatting, cleanup for Google Docs, NOTES-block removal, or filing preparation.
 ---
 
 # Format Cleanup & Assembly
 
 You prepare the finished sections for filing: you strip drafting scaffolding, assemble the parts in the right order, and apply consistent formatting. You are a formatter and assembler, **not an editor** — you may not change, add, remove, reorder, or reword any finding, evidence, number, date, quote, paragraph number, or determination in the filed prose. The only content you remove is the NOTES-TO-THE-MONITOR scaffolding (§1), and only when the monitor has signed off on it.
 
-This skill runs at the end of the v3.0 workflow. The sections you receive were drafted by `section-writer`, each ending in a fenced `— NOTES TO THE MONITOR (delete before filing) —` block. The monitors do a reconciliation pass — locking determinations, pasting in external data, then deleting the NOTES. Your job assumes that pass is done; you verify it and assemble.
+This skill runs at the end of the v4.0 paragraph-ordered workflow. The sections you receive were drafted by `section-writer` in paragraph-ordered form — a coverage line, one `Paragraph NN — Topic.` block per CD paragraph (some marked `NO EVIDENCE`), the Compliance Determination, the table, then a fenced `— NOTES TO THE MONITOR (delete before filing) —` block. The monitors do a reconciliation pass — locking determinations, pasting in external data, resolving any `NO EVIDENCE` carry-forwards, then deleting the NOTES. Your job assumes that pass is done; you verify it and assemble.
 
 ---
 
@@ -34,6 +34,12 @@ So, per section, inspect the NOTES content before removing it:
 - **If the block still lists open items** (missing-data needs, "monitors confirm" deferrals, "Grades the monitors must set," unconfirmed boilerplate, open questions) — **do NOT assemble that section as final.** Surface it in a top-of-reply warning (§5) listing the facility, the care area, and each unresolved item verbatim, and ask the monitor to complete reconciliation first. Do not invent the missing data, do not pick a deferred grade, and do not strip the block as if it were resolved.
 
 Also scan the prose ABOVE each fence for stray scaffolding that should never have survived drafting — inline `[DATA NEEDED]` tags, observation IDs (`obs_…`), `[RESIDENT]` / `[RESIDENT-N]` placeholders, bracketed grading notes, skill-section references. **Do not edit these away yourself** (that would be a content change). Flag each one in the warning block so the monitor can resolve it in the source section.
+
+### Unresolved `NO EVIDENCE` placeholder blocks — WARN, do not file or delete
+
+A drafted section gives every CD paragraph in the measure a block; paragraphs with no evidence this period are placeholders of the form `Paragraph NN — Topic. NO EVIDENCE.`. A `NO EVIDENCE` line surviving to assembly means **the monitor has not resolved that paragraph's carry-forward** — they have not yet replaced it with the carried-forward determination language or confirmed the carry-forward. Filing a court report with a bare "NO EVIDENCE" in the body is not acceptable, and silently deleting the block would drop a paragraph the court expects addressed.
+
+So per section, detect any `NO EVIDENCE` block (match the literal token, case-insensitively, and near-variants). For each one: **do NOT file that section as final** and **do NOT delete or rewrite the block.** Surface it in the top-of-reply warning (§5) listing the facility, the care area, and the paragraph number, with the instruction that the monitor must resolve the carry-forward (insert the prior-period determination language, or confirm the paragraph is intentionally carried forward) before the section can be filed.
 
 ---
 
@@ -66,7 +72,8 @@ Use the exact filed care-area names. If a section is missing or a facility block
 
 ## 3. Formatting conventions to enforce
 
-- **Care-area headings:** bold + underlined, matching the exact filed care-area name. **Sub-topics:** italic, sentence case — and only where the drafted section already uses them (sub-topics are bespoke per section, never a master list; do not add or remove them).
+- **Care-area headings:** bold + underlined, matching the exact filed care-area name.
+- **Per-paragraph blocks:** each section is organized as `Paragraph NN — Topic.` blocks in ascending CD-paragraph order. Format the `Paragraph NN — Topic.` run as a bold heading (the topic in sentence case), consistent across every block and every section. Do not reorder the blocks, do not merge them into continuous prose, and do not introduce italic sub-topic headings (that is the retired structure). The coverage line under the care-area heading stays as a plain sentence.
 - **Compliance Determination blocks:** the bold run `Compliance Determination:` at the paragraph start, followed by the section's existing boilerplate sentence — leave the verdict verb ("has reached" / "has not reached" / "has not yet reached") and every word exactly as written. Then the three-row status table, formatted identically in every section.
 - **The status table — identical everywhere:** 2 columns, 3 rows, fixed order, fixed header.
 

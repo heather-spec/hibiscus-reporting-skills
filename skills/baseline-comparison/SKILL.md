@@ -25,7 +25,7 @@ This skill does **one narrow thing**: it adds baseline context. It does not draf
 You are given:
 
 1. **The drafted section** — from `section-writer` or pasted by the user. This carries the current-window findings, the `Compliance Determination:` paragraph, the status table, and (if present) a `— NOTES TO THE MONITOR (delete before filing) —` fence.
-2. **The care-area source file** (`source-<facility>-<NN>-<care-area>.md`) — the full names-removed observation detail for this one facility and care area. This is the ONLY source for the **current** half of any comparison.
+2. **The care-area source file** (`02-source-evidence/<facility>/<NN>-<care-area>.md` on the mounted Drive; attached per-draft in the claude.ai project) — the full names-removed observation detail for this one facility and care area, with a `Record # | obs ID` per observation. This is the ONLY source for the **current** half of any comparison.
 3. **The Baseline Report** (June 2025) — in project knowledge. This is the ONLY source for the **baseline** (prior-state) half of any comparison. Read the corresponding care-area portion in full before touching the draft. If the Baseline Report is not available, STOP and ask for it. **Never reconstruct baseline findings from memory.**
 
 The **12-Month Report is NOT a baseline source.** It is a later filed report used elsewhere only for voice, structure, density, and prior-period grade continuity. The current evidence covers a still-later window (months 13–19; Nov 2025–May 2026), so current facts legitimately differ from the 12-Month Report — that is expected, not an error. For prior STATE, the comparison anchor is the **Baseline Report**, not the 12-Month Report.
@@ -53,7 +53,7 @@ Use a comparison only where the source documents a **genuine then-vs-now story**
 - **Persistence** — a baseline concern remains → supports Partially Compliant / Non-Compliant, and puts on the record that the facility had notice.
 - **Continuity of strength** — a baseline positive is sustained → supports Substantially Compliant.
 
-Placement is at the **natural point in the existing prose** — usually the opening of the relevant sub-topic or the sentence where that thread is first stated — not bolted on at the end. The Baseline Report is typically the subject of the sentence, immediately followed by current status from the source.
+Placement is **inside the relevant `Paragraph NN — Topic.` block** — at the natural point in that block's prose, usually where the thread is first stated — not bolted on at the end of the block or the section. (Sections are paragraph-ordered; weave the comparison into the block whose CD paragraph the then-vs-now story belongs to.) The Baseline Report is typically the subject of the sentence, immediately followed by current status from the source. Never add a comparison to a `NO EVIDENCE` placeholder block — those have no current half to compare against.
 
 ---
 
@@ -96,3 +96,15 @@ This is the only acceptable way to "mark" additions: visible to the monitor in N
 ## 6. NOTES TO THE MONITOR — the single fence
 
 All drafting aids live in ONE fenced block at the very end of the section, after the table, labeled exactly:
+
+```
+— NOTES TO THE MONITOR (delete before filing) —
+```
+
+The drafted section you are editing already carries this fenced block in the section-writer's sectioned format, with eight named subsections (PURPOSE OF THIS SECTION; DETERMINATION RATIONALE; PRIOR-PERIOD GRADE CONTINUITY; MISSING / EXTERNAL DATA TO SUPPLY; SCOPE / OVERLAP NOTES; ANONYMIZATION CONFIRMED; SOURCE-OBSERVATION CROSSWALK; RECONCILIATION QUESTIONS). **Do not create a second fence and do not reorder those subsections.** Fold your baseline work into the existing block:
+
+- Record every woven comparison under a clearly labeled **"Baseline comparisons woven in"** entry placed with the **PRIOR-PERIOD GRADE CONTINUITY** material (to which it is most closely related): quote each sentence you inserted, name the `Paragraph NN` block it now sits in, and give both sources — the Baseline Report location for the prior half and the source-file `Record #/obs ID` for the current half.
+- Put baseline topics the source file is silent on this window under **MISSING / EXTERNAL DATA TO SUPPLY**, or as an open item under **RECONCILIATION QUESTIONS** — never as prose.
+- Add any source-file observation you newly relied on to the existing **SOURCE-OBSERVATION CROSSWALK**.
+
+Everything above the fence stays clean, file-ready prose — no inline markup, no `[ADDED]` brackets, no observation IDs. The fence label must be exactly `— NOTES TO THE MONITOR (delete before filing) —`. If the draft you were handed has no NOTES block at all, add one in the section-writer's sectioned format rather than inventing a different structure.

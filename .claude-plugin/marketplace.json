@@ -7,13 +7,13 @@
   },
   "metadata": {
     "description": "Report-writing skills for federal-court compliance monitoring under a consent decree",
-    "version": "3.3.0"
+    "version": "4.0.0"
   },
   "plugins": [
     {
       "name": "hibiscus-reporting",
       "displayName": "Hibiscus Report Writing",
-      "description": "Court-report drafting skills for the Hibiscus monitoring team: section drafting with three-option generation, executive summary writing, baseline comparison, vocabulary checking, observation lookup, and Google Docs formatting prep.",
+      "description": "Court-report drafting skills for the Hibiscus monitoring team: paragraph-ordered section drafting (one block per consent-decree paragraph, with NO EVIDENCE placeholders), executive summary writing, baseline comparison, voice checking, observation lookup, and Google Docs formatting prep.",
       "source": "./",
       "strict": false,
       "skills": [
@@ -24,7 +24,7 @@
         "./skills/obs-lookup",
         "./skills/format-cleanup"
       ],
-      "version": "3.3.0"
+      "version": "4.0.0"
     }
   ]
 }
