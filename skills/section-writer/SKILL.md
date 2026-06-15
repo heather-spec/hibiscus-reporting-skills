@@ -245,13 +245,29 @@ Put **every** drafting aid in ONE clearly-fenced block at the very end of your o
 ```
 
 Into that block go, and only there:
+- **Source-observation crosswalk** (always include — see below). The verification index tying this section back to the underlying records.
 - **Missing external-data needs**, stated specifically, e.g. "Insert the Q[ ] MDS pressure-ulcer QM adjusted % + state/national comparison + percentile + baseline-period delta here, from the CMS MDS 3.0 QM Report — the observation source does not contain it."
 - **Determination rationale and any uncertainty** — which findings and which prior grade drove the proposed grade for each paragraph, and where the source is too thin to grade confidently, deferred to the monitors per §8.1.
 - **Boilerplate-wording confirmations** if you did not have the filed boilerplate for this measure.
 - **Open questions for the monitors** (placement decisions, whether a thread belongs in another section).
 - **Thin-evidence and missing-input flags**, including a missing prior-report grade or a care area whose source had no baseline comparison.
 
-If there are no aids needed, still emit the fence with a single line: "No outstanding items." Nothing above the fence is ever a note to the monitor; nothing below it is ever filed prose.
+### 9.1 Source-observation crosswalk (always include)
+
+Inside the NOTES block, include a subsection titled **"Source observations used in this section."** Each observation in the source file carries a `Record #… | obs ID …` header — list every observation this section's findings draw on, in this form:
+
+```
+Source observations used in this section:
+- Record #65 | obs 1769628530441 — 2026-01-28, Medical Record Review — supports the assessment-gap findings (¶51a): high-risk resident with no fall risk assessment in the review period.
+- Record #… | obs … — <date>, <type> — supports <paragraph(s)> / <one-line of what it contributed>.
+- (continue for every observation drawn upon)
+```
+
+This is the monitors' verification crosswalk: it lets them trace any statement in the section back to the underlying record (then, if needed, to the full names-removed analysis or the original record via the Record #). Two hard requirements:
+1. **Every substantive finding in the prose must trace to at least one observation in this list.** If you cannot tie a finding to a source observation, the finding does not belong in the draft — remove it. This list is your own fabrication check.
+2. **Record #/obs IDs appear ONLY here, never in the filed prose above the fence.**
+
+If there are no aids needed beyond the crosswalk, the crosswalk alone is the NOTES block. Nothing above the fence is ever a note to the monitor; nothing below it is ever filed prose.
 
 ---
 
