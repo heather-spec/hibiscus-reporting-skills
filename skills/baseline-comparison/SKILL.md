@@ -1,41 +1,98 @@
 ---
 name: baseline-comparison
-description: Strengthens a drafted care-area section by weaving Baseline Report comparisons INLINE into the narrative, following the monitoring team's established pattern ("The Baseline Report identified concerns with X. Recent onsite visits revealed..."). Applied selectively where baseline contrast best supports the compliance narrative - showing progress, persistence, or regression. Use when the user asks to add baseline comparison, check a section against the baseline, or verify whether an issue was already documented at baseline.
+description: >-
+  Strengthens a drafted care-area section of the court-monitoring report by weaving Baseline Report
+  comparisons INLINE into the existing narrative — never as an appended block — and only where the
+  source documents a genuine then-vs-now story (clear progress or clear persistence). Both halves must
+  be sourced: the baseline finding from the Baseline Report, the current finding from the care-area
+  source file. Adds baseline context only; never alters findings, evidence, or Compliance
+  Determinations. Marks each inline addition so the monitor sees exactly what was added, and keeps all
+  drafting aids below the NOTES-TO-THE-MONITOR fence. Use when a monitor asks to add a baseline
+  comparison, weave the Baseline into a section, check a draft against the Baseline Report, or verify
+  whether an issue was already documented at baseline.
 ---
 
 # Baseline Comparison
 
-You weave **Baseline Report** comparisons into a drafted care-area section. In the team's filed reports, baseline references appear INLINE throughout the narrative — they are the spine of the progress story — never as an appended block at the end of a section.
+You weave **Baseline Report** comparisons into a drafted care-area section. In the team's filed reports, baseline references appear INLINE at natural points in the narrative — the spine of the then-vs-now story — never as an appended "Comparison to Baseline" block at the end of a section.
 
-## The inline pattern (from the filed reports)
+This skill does **one narrow thing**: it adds baseline context. It does not draft new findings, change evidence, or set grades. Everything it adds must be sourced on both halves, and every addition is marked so the monitor sees exactly what changed.
 
-> "The Baseline Report identified concerns about [specific concern]. More recent onsite visits showed that [current state]."
+---
 
-> "The Baseline Report identified concerns with [X]. These concerns persist, though the monitoring team has noted some improvement. [Specifics...]"
+## 0. Your inputs
 
-> "The Baseline Report confirmed that [positive finding]. During recent onsite visits, the monitoring team determined that [continuation]."
+You are given:
 
-Three story shapes, each earning different placement:
-- **Progress** — baseline concern now improved → supports a paragraph moving toward Substantially Compliant
-- **Persistence** — baseline concern remains → supports Partially Compliant / Non-Compliant, and shows the facility had notice
-- **Continuity of strength** — baseline positive sustained → supports Substantially Compliant
+1. **The drafted section** — from `section-writer` or pasted by the user. This carries the current-window findings, the `Compliance Determination:` paragraph, the status table, and (if present) a `— NOTES TO THE MONITOR (delete before filing) —` fence.
+2. **The care-area source file** (`source-<facility>-<NN>-<care-area>.md`) — the full names-removed observation detail for this one facility and care area. This is the ONLY source for the **current** half of any comparison.
+3. **The Baseline Report** (June 2025) — in project knowledge. This is the ONLY source for the **baseline** (prior-state) half of any comparison. Read the corresponding care-area portion in full before touching the draft. If the Baseline Report is not available, STOP and ask for it. **Never reconstruct baseline findings from memory.**
 
-## Inputs
+The **12-Month Report is NOT a baseline source.** It is a later filed report used elsewhere only for voice, structure, density, and prior-period grade continuity. The current evidence covers a still-later window (months 13–19; Nov 2025–May 2026), so current facts legitimately differ from the 12-Month Report — that is expected, not an error. For prior STATE, the comparison anchor is the **Baseline Report**, not the 12-Month Report.
 
-1. **The drafted section** (from section-writer or pasted by the user).
-2. **The Baseline Report** — in project knowledge. Read the corresponding care-area portion in full before touching the draft. If the Baseline Report is not in project knowledge, STOP and ask for it. Never reconstruct baseline findings from memory.
+---
 
-## Process
+## 1. Both halves sourced — the first rule
 
-1. Read the Baseline Report's treatment of this care area. List its specific concerns and positive findings.
-2. Map each against the draft's current findings: progressed / persisted / regressed / resolved / new-since-baseline.
-3. Weave comparisons into the draft's existing paragraphs at the natural points — usually the opening of the relevant sub-topic. Quote or closely paraphrase the baseline language so continuity is on the record.
-4. Be selective, per the team's direction: not every paragraph needs a baseline reference. Use comparisons where they best support the compliance narrative — strongest at points of clear progress and clear persistence.
-5. Return the revised section with the woven comparisons MARKED (e.g., highlighted or listed) so the team can see exactly what was added.
+A baseline comparison is two claims joined: *what the Baseline Report documented* and *what the source file shows now*. **Write a comparison only when you can ground both halves.**
 
-## Hard rules
+- The baseline half traces to the Baseline Report's treatment of this care area — quoted or closely paraphrased.
+- The current half traces to an item in the care-area source file.
 
-- Never alter the draft's findings, evidence, or Compliance Determination — you add baseline context only. If the baseline comparison makes a determination look wrong (e.g., a "resolved" claim contradicted by the baseline trajectory), flag it; don't silently change it.
-- Quote the Baseline Report accurately. If the baseline didn't address a topic, don't manufacture a comparison — silence is acceptable.
-- Resolved concerns are stated carefully: improvement was observed; absence of recurrence is not proof of resolution unless monitors specifically assessed it.
-- Keep the team's voice: "The Baseline Report identified..." / "As discussed in the Baseline Report..." — exactly the phrasings used in filed reports.
+If the Baseline Report did not address a topic, do not manufacture a comparison — **silence is acceptable and often correct.** If the source file does not document the current state of a baseline concern, do not assert progress, persistence, or resolution; flag the gap in NOTES instead. A plausible-sounding then-vs-now sentence with only one half sourced is a fabrication.
+
+---
+
+## 2. Be sparing — only where it earns its place
+
+Baseline comparison is **selective, not comprehensive.** Many filed sections never mention the Baseline Report. Do not seed a baseline reference into every paragraph, and never open a section with a Baseline recap by default — sections open with what is true now.
+
+Use a comparison only where the source documents a **genuine then-vs-now story**, in one of three shapes:
+
+- **Progress** — a baseline concern is now improved → supports a paragraph trending toward Substantially Compliant.
+- **Persistence** — a baseline concern remains → supports Partially Compliant / Non-Compliant, and puts on the record that the facility had notice.
+- **Continuity of strength** — a baseline positive is sustained → supports Substantially Compliant.
+
+Placement is at the **natural point in the existing prose** — usually the opening of the relevant sub-topic or the sentence where that thread is first stated — not bolted on at the end. The Baseline Report is typically the subject of the sentence, immediately followed by current status from the source.
+
+---
+
+## 3. The inline pattern (the team's filed phrasings)
+
+Match these shapes; fill them with the actual sourced facts for both halves.
+
+> "The Baseline Report identified concerns with [baseline concern, from Baseline Report]. More recent onsite visits showed that [current state, from source file]."
+
+> "The Baseline Report identified concerns with [X]. These concerns persist, though the monitoring team has noted some improvement: [current specifics, from source file]."
+
+> "The Baseline Report documented [system / positive finding]. This system remains in place, and during recent onsite visits the monitoring team confirmed [current continuation, from source file]."
+
+Keep the team's flat declarative voice (per the section-writer rulebook): no essayistic build ("raises questions about," "potentially interferes"), no consequence-editorializing, no external-literature citation, no contractions in the team's own prose. The comparison states the then and the now and stops.
+
+---
+
+## 4. Process
+
+1. **Read the Baseline Report's treatment of this care area in full.** List its specific concerns and its positive findings, in the Baseline Report's own language.
+2. **Map each against the draft's current findings** (which trace to the source file): progressed / persisted / regressed / resolved / new-since-baseline.
+3. **Select the few that carry a genuine, both-halves-sourced story** (§1–§2). Discard the rest — including baseline topics the source file is silent on this window (those become NOTES, not prose).
+4. **Weave each selected comparison into the existing paragraph at its natural point**, using the team's phrasing (§3). Quote or closely paraphrase the baseline language so the continuity is on the record. Do not restructure the draft or move findings around.
+5. **Mark every inline addition** so the monitor sees exactly what was added — see §5.
+6. **Record the rest in NOTES** — baseline topics with no current evidence, any tension a comparison surfaces, and your sourcing for each woven half — below the fence (§6).
+
+---
+
+## 5. Marking additions without dirtying the filed prose
+
+The monitor must be able to see what you added **and** still copy clean text into the filing. Reconcile these by keeping the marks **out of the prose itself**:
+
+- Leave the woven sentences as clean, file-ready prose in the section body — no inline highlight tags, no `[ADDED]` brackets, no track-changes cruft in the paragraph.
+- In the NOTES block, list each addition under a **"Baseline comparisons woven in"** heading: quote the exact sentence you inserted, name the paragraph/sub-topic it now sits in, and give the two sources (Baseline Report location for the prior half, source-file item for the current half). The monitor reads the list, verifies, then deletes the NOTES block — and the prose above the fence is already clean.
+
+This is the only acceptable way to "mark" additions: visible to the monitor in NOTES, invisible (because clean) in the filed prose. Do not introduce inline scaffolding above the fence.
+
+---
+
+## 6. NOTES TO THE MONITOR — the single fence
+
+All drafting aids live in ONE fenced block at the very end of the section, after the table, labeled exactly:
