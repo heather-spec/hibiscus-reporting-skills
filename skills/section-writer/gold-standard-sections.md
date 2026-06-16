@@ -186,6 +186,7 @@ RECONCILIATION QUESTIONS FOR THE MONITOR:
 
 These are the transferable sentence-level moves from the team's filed reports. They apply *inside* each paragraph block — they do **not** change the paragraph-ordered structure.
 
+- **Fair, not prosecutorial.** Findings are accurate and unflinching but delivered with grace: critique the documentation, system, or process — not people's character; let the fact carry the weight; lead with credit and corrective effort where earned. Apply the gentling mainly to documentation/systems/skill findings; keep serious patient-safety and resident-dignity findings plain and grave (factual, never scornful, never minimized).
 - **Credit-first framing within a deficiency block.** Open on what is standing and working, then pivot to the gap with a continuity verb. "The facility reported substantial progress … However, existing policies were not consistently implemented." Leading with the functioning system earns the criticism its credibility.
 - **Continuity verbs signal a tracked, longitudinal picture.** "continues to," "remains," "has not yet" — the same verb can carry credit ("continues to educate") or deficiency ("continues to struggle"), marking a known, monitored issue rather than a fresh discovery.
 - **Quantify the credit and the concern alike.** Exact X-of-N beats adjectives: "required assessments missing in five" of six; "20 reviews for residents under three other attending physicians." A counted figure attached to a dated event converts a soft claim into something auditable.

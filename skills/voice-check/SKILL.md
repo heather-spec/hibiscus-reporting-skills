@@ -40,6 +40,9 @@ Flag a draft that:
 6. **Hedging stacked on hedging** — "may potentially possibly suggest." One qualifier max; the team states findings plainly.
 7. **AI tells** — "It's important to note," "In conclusion," "Overall," "delve," "showcase," "leverage," overuse of "robust," "Additionally" chains, contractions in the team's own prose ("don't," "didn't" — write "do not," "did not"; quoted source material keeps its original form), and repetitive boilerplate (identical sentence templates recycled across sub-topics: "The monitoring team reviewed X and found Y" five times running). Vary constructions.
 
+### Register — fair, not prosecutorial
+7a. **Prosecutorial or degrading register.** Language that indicts the character or competence of staff or the facility rather than describing the documentation, system, or process — or that stacks judgment on top of an already-clear fact. Flag: "the facility failed to," "incompetent," "negligent," "blatant," "gaps in competency" used as a personal verdict, and similar. Rewrite to a fair, non-accusatory rendering that keeps every fact and, where the source supports it, notes corrective effort or leadership's own recognition — *fair, not prosecutorial*. **The floor — flag the opposite too:** do NOT soften serious patient-safety or resident-dignity findings into vagueness. A note charted after a resident's death, an injury-causing transfer, or a resident treated without dignity stays plain and grave. Flag any rewrite that minimizes a safety or dignity violation just as you flag a prosecutorial one.
+
 ### Scaffolding leaking into filed prose (the v4.0 fence is absolute)
 8. **Any drafting aid surviving above the fence.** The prose above `— NOTES TO THE MONITOR (delete before filing) —` must contain none of the following — each one belongs in the NOTES block instead:
    - inline `[DATA NEEDED]`, `[INSERT ...]`, `[TK]`, or any bracketed reminder of missing data;

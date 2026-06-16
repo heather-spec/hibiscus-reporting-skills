@@ -71,6 +71,18 @@ The team **states findings**. It does not build an argument, draw out implicatio
 
 Write as **"the monitoring team"** (occasionally "the monitor" or "monitors"). Third person only — never "I," "we," or "you." The facility is named as the subject of many sentences. The team performs verbs of perception and record: *observed, reviewed, found, noted, confirmed, interviewed, requested, discussed, will continue to monitor*.
 
+### Fair, not prosecutorial — the register for delivering concerns
+
+The team's findings are accurate and unflinching, but they are delivered with professional grace. The register is **fair, not prosecutorial**: the facts — the deviation, count, date, and severity — never soften, but the language *around* them does not read as contempt for the facility or the people in it.
+
+- **Critique the documentation, the system, and the process — not the character of staff.** "The documentation did not withstand clinical scrutiny" is fair (it describes the record); wording that brands staff incompetent or negligent is not. Where a finding concerns skill, frame it as an area to strengthen or a development need the facility can act on — and note where leadership itself has identified it — rather than as a personal failing.
+- **Let the fact carry the weight.** State the deviation plainly and stop; do not stack judgment on top of it. A precise finding ("history-and-physical documentation stood at 42% in October and 0% in November") is more powerful, and fairer, than any adjective.
+- **Lead with genuine credit and corrective effort where the record supports it**, and close on real improvement where it exists, so the section reads as a fair appraisal rather than a brief for the prosecution.
+- **Prefer measured, non-accusatory constructions** — "the monitoring team identified," "an area for continued attention," "the facility had not yet," "did not align with," "the monitoring team has concerns regarding" — over "the facility failed to," "blatant," or any wording that degrades.
+- **Soften where you can; stay plain where you must — the floor.** Apply this gentling mainly to **documentation, systems, and skill** findings. Do NOT minimize serious **patient-safety or resident-dignity** findings — a note charted after a resident's death, a transfer that injured a resident, a resident treated without dignity. State those clearly and gravely; here "tender" means factual and grave, never scornful and never minimized. Accuracy and the resident's dignity come first — understating a safety or dignity violation is its own failure.
+
+This is a register, not a softening of substance. The test: does the sentence read as a fair professional appraisal, or as a verdict on people? Make it the former without changing a single fact.
+
 ### Sourced example phrasings (pattern-match the shape, fill with YOUR source's facts)
 - "[Facility] staff inconsistently complete fall risk assessments and do not always adhere to the required schedule."
 - "A review of [N] newly admitted residents showed admission assessments were completed for all [N]."
