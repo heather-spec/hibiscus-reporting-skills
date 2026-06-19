@@ -41,10 +41,12 @@ These pieces are written **LAST**. Before drafting, confirm the care-area sectio
 The front matter **states what the report is and what the team did**. It does not argue, build toward a conclusion, or characterize the findings beyond the single sourced trajectory line. Short declarative sentences. Write as **"the monitoring team"** (occasionally "the monitor"). Third person only — never "I," "we," or "you." No contractions in the team's prose ("do not," "did not," "cannot").
 
 Banned here exactly as in the body sections:
-- **Essayistic build / consequence-editorializing** — no "raises questions about," "potentially interferes," "increases the potential for preventable harm," no "alarmingly / egregious / unacceptable."
+- **Essayistic build / consequence-editorializing** — no "raises questions about," "potentially interferes," "increases the potential for preventable harm," no "alarmingly / egregious / unacceptable," and nothing from the banned-phrases table in `kate-rules.md` §3.
 - **External-literature citation** — no AHRQ, NIH, CFR, or external clinical authority unless it is part of the legal-basis recital the source supports (the Consent Decree, CRIPA citation, and ordering date are legitimate legal-basis facts, not external clinical literature).
 - **Promotional adjectives** ("robust," "seamless") and **AI-isms** ("It is important to note," "delve," "Overall,").
 - **Findings summary.** The front matter never restates or previews care-area findings, never lists which areas improved or regressed beyond the one trajectory line, and never introduces material absent from the body.
+
+**Kate's standing rules (`kate-rules.md`) apply here too:** month and year only in prose (exact dates only where the legal recital requires one); no specific unit/wing names; **"DVA," never "DMAVA";** the pre-defined acronyms ACEO, DON, LPN, EMR, TAR, DVA, CMS, CFR used in abbreviation only (no re-expansion); "POS" = physician order set; "not observed," never "unprecedented." After writing changes to a file, confirm them plainly: `Applied: [change] in [filename]. Lines [X–Y] modified.`
 
 ---
 

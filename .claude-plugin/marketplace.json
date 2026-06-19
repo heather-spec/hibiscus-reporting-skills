@@ -7,24 +7,26 @@
   },
   "metadata": {
     "description": "Report-writing skills for federal-court compliance monitoring under a consent decree",
-    "version": "4.1.0"
+    "version": "5.0.0"
   },
   "plugins": [
     {
       "name": "hibiscus-reporting",
       "displayName": "Hibiscus Report Writing",
-      "description": "Court-report drafting skills for the Hibiscus monitoring team: paragraph-ordered section drafting (one block per consent-decree paragraph, with NO EVIDENCE placeholders), executive summary writing, baseline comparison, voice checking, observation lookup, and Google Docs formatting prep.",
+      "description": "Court-report drafting skills for the Hibiscus monitoring team, governed by the monitor's cumulative rulebook (kate-rules.md): observation inventory + coverage map, paragraph-ordered section drafting (one block per consent-decree paragraph, with NO EVIDENCE placeholders), executive summary writing, baseline comparison, voice checking, observation lookup, Google Docs formatting prep, and cross-session handoff. v5.0 bakes in the monitor's standing rules (no unit names, month/year only, DVA, concerns-first ordering, generalized meds/labs, banned phrases) and reverses the old credit-first paragraph ordering to concerns-first/positives-last.",
       "source": "./",
       "strict": false,
       "skills": [
+        "./skills/obs-inventory",
         "./skills/section-writer",
         "./skills/exec-summary-writer",
         "./skills/baseline-comparison",
         "./skills/voice-check",
         "./skills/obs-lookup",
-        "./skills/format-cleanup"
+        "./skills/format-cleanup",
+        "./skills/session-handoff"
       ],
-      "version": "4.1.0"
+      "version": "5.0.0"
     }
   ]
 }

@@ -13,6 +13,22 @@ The controlling references are the per-care-area source file the draft was writt
 
 A drafted section is: a working header → a one-sentence **coverage line** (which paragraphs have evidence, which carry forward) → **one block per CD paragraph in the measure, in ascending order** (`Paragraph NN — Topic.` then a synthesized narrative; paragraphs with no evidence are `Paragraph NN — Topic. NO EVIDENCE.` placeholders) → a `Compliance Determination:` paragraph → a three-row status table → then, after a hard fence, a single sectioned `— NOTES TO THE MONITOR (delete before filing) —` block. Everything above the fence is clean, file-ready prose. Each block **synthesizes** its paragraph's evidence — it is not a record-by-record walk; the Record#-level detail lives in the crosswalk inside NOTES. Every drafting aid lives below the fence and nowhere else.
 
+## Kate's standing rules — enforce every one (see `kate-rules.md`)
+
+These are the monitor's non-negotiable rules. Flag and fix every violation; they are the corrections Kate has had to make most often. (Full list, banned-phrases table, and exclusions: `kate-rules.md`.)
+
+1. **Specific unit/wing names in prose** — flag any; rewrite to "the facility," "the unit," "one unit." (Unit names belong only in the NOTES crosswalk, tied to a citation.)
+2. **Exact dates in prose** — flag any day/month/year ("on March 14, 2026"); rewrite to month and year only ("in March 2026"). Exact dates belong only in the crosswalk.
+3. **"DMAVA"** — flag every instance; replace with **"DVA."**
+4. **Re-expanded pre-defined acronyms** — flag any spelled-out or parenthetically-expanded use of ACEO, DON, LPN, EMR, TAR, DVA, CMS, CFR; replace with the bare abbreviation. (Other terms of art still get a first-use definition — see #18.)
+5. **"Physician order summary" / "point of service"** — flag; POS = **physician order set.**
+6. **Positive-finding-first ordering** — flag any block that leads with credit, a bright spot, or compliance before stating the deficiency. Reorder: concerns first, positive findings and corrective effort last. **Problem, then credit.**
+7. **Specific drug names or lab values** where a generalization belongs — flag a drug list (rewrite to "multiple cardiac medications") or a raw lab value used for severity (rewrite to "worsening / elevated"), unless that exact medication or value is the direct subject of the finding.
+8. **Consequence-editorializing (P0)** — see flag #1 below; bites hardest on the last sentence of a block.
+9. **Excluded observations** — flag any drafting of the MDS missed-hospitalization observation (or anything else on the `kate-rules.md` Exclusions list); it must not appear.
+10. **Clinical shorthand** — flag "query" used as a verb (→ "recommended evaluation for") and imprecise time refs like "across early visits" (→ the actual observation pattern).
+11. **"Unprecedented"** — flag; replace with "not observed" / "not documented."
+
 ## Structure checks (the paragraph-ordered standard)
 
 Flag a draft that:
@@ -20,6 +36,7 @@ Flag a draft that:
 - **Skips a paragraph** — a CD paragraph of the measure with no block at all. Every paragraph in the measure must appear (real block or NO EVIDENCE placeholder). Use the Consent Decree reference to confirm the full paragraph list.
 - **Mis-handles NO EVIDENCE** — a placeholder with narrative or a speculative finding after it (should be only `Topic. NO EVIDENCE.`); a NO EVIDENCE paragraph that nonetheless appears in the table body (it must be carried forward in NOTES, not graded); or, conversely, a paragraph with real source evidence collapsed to a NO EVIDENCE line. Do NOT treat a NO EVIDENCE placeholder as stray scaffolding to delete — it is required structure.
 - **Enumerates instead of synthesizing** — a block that narrates record after record (Record #1 …, Record #2 …) rather than folding the evidence into a focused account. Flag for tightening; route the surplus detail to the crosswalk.
+- **Leads with the positive (wrong ordering)** — a two-handed block that opens with credit, a bright spot, or a compliance statement and only then reaches the deficiency. Flag it: the order must be **concerns first, positive findings and corrective effort last** (Kate's rule 6). In the rewrite, move the deficiency to the front and let the genuine credit close the block — as a plain factual statement, not an editorializing wrap-up.
 - **Has a NOTES block missing the sectioned format** — the NOTES block should carry the named subsections in order (PURPOSE / DETERMINATION RATIONALE / PRIOR-PERIOD GRADE CONTINUITY / MISSING-EXTERNAL DATA / SCOPE-OVERLAP / ANONYMIZATION CONFIRMED / SOURCE-OBSERVATION CROSSWALK / RECONCILIATION QUESTIONS). Flag a NOTES block that omits the crosswalk or collapses the structure.
 
 ## The voice (what filed reports sound like)
@@ -32,7 +49,7 @@ Flag a draft that:
 ## Flag every instance of
 
 ### Voice and argumentation
-1. **Essayistic / argumentative build and consequence-editorializing** — the draft arguing toward a conclusion or speculating about downstream harm. Flag: "raises questions about whether...", "potentially interferes with early detection...", "increases the potential for preventable harm...", "this is concerning because it could lead to...", "calls into question the ability of [Facility] leadership to...". Replace with a flat statement of the deviation that stops where the source stops. State what the requirement is and what was observed; do not manufacture a consequence the source does not record.
+1. **Essayistic / argumentative build and consequence-editorializing — THE P0 FLAG** — the draft arguing toward a conclusion or speculating about downstream harm. This is the most-repeated correction; it bites hardest on the **last sentence of a paragraph block.** **Test: if the last sentence of a block can be deleted without losing a factual finding, flag it for deletion.** Flag: "this suggests...", "this raises concerns about...", "this pattern indicates...", "raises questions about whether...", "potentially interferes with early detection...", "increases the potential for preventable harm...", "this is concerning because it could lead to...", "calls into question the ability of [Facility] leadership to...", "systemic gap," "more concerning," "breadth of undocumented omissions." Replace with a flat statement of the deviation that stops where the source stops. State what the requirement is and what was observed; do not manufacture a consequence the source does not record.
 2. **External-literature citation not in the source** — AHRQ, NIH percentile thresholds, CFR sections, or any external clinical authority that does not appear verbatim in the source file. The filed prose attributes standards plainly ("Standard of practice requires...", "Regulatory requirements mandate...") without invented references. Flag any external citation and ask the monitor to confirm it traces to the source; if it does not, cut it.
 3. **Charged or vague intensity words** the team avoids: "pervasive," "rampant," "egregious," "alarming," "shocking," "woefully," "systemic failure," "unacceptable." Replace with the actual count or extent ("in four of five records reviewed"). Direct, specific criticism is fine — emotional language is not.
 4. **"Spirit of" phrasing** (any variant) — explicitly banned. State what the requirement is and what was observed.
@@ -63,12 +80,38 @@ Flag a draft that:
     - The `Compliance Determination:` paragraph uses the boilerplate in the exact wording the filed report uses for THAT measure (the wording is not uniform — e.g. Falls and Medication Administration have no "and discussions"; Infection Prevention uses "set forth in"). Flag a verdict verb ("has reached" / "has not reached" / "has not yet reached") that does not follow from the findings plus the prior grade, and flag boilerplate that looks copied from a different measure.
     - Flag inventions like "fully compliant," "in violation," "mostly compliant," or percentage compliance scores.
 14. **Compliance-verdict phrasing in the narrative that usurps the determination table** — sweeping prose verdicts ("the facility is non-compliant across the board," "this area is a systemic failure") that pre-empt or contradict the per-paragraph table. The narrative states findings; the table assigns grades.
-15. **A table grade that contradicts the NOTES.** If the NOTES flag a paragraph's grade as uncertain, deferred, or unresolved, the table may NOT assert a new or changed grade for that paragraph. The table and NOTES must agree: an uncertain paragraph is either carried at its prior grade (with a NOTE saying so) or left out of the table body and listed under the NOTES for the monitors to set. Flag any table that commits a grade the NOTES privately doubt.
+15. **A table grade that contradicts the NOTES.** If the NOTES flag a paragraph's grade as uncertain, deferred, or unresolved, the table may NOT assert a new or changed grade for that paragraph. The table and NOTES must agree: an uncertain paragraph is either carried at its prior grade (with a NOTE saying so) or left out of the table body and listed under the NOTES for the monitors to set. Flag any table that commits a grade the NOTES privately doubt. **Run the full consistency check (`kate-rules.md` §7):** flag (a) any grade that differs between table and NOTES, (b) any NOTE expressing uncertainty ("may," "likely," "unclear") while the table shows that paragraph at a definitive grade, and (c) any finding in the NOTES with no row in the table, or any graded row with no supporting finding in the NOTES.
 16. **Paraphrased Consent Decree language presented as quotation** — decree text is quoted verbatim or clearly summarized, never half-quoted. Also flag paragraph numbers in the table that collapse sub-paragraph granularity (49a/49b into "49") or that retain the internal taxonomy section-letter prefix (D.49a should be 49a, not D.49a).
 
 ### Sourcing and definitions
 17. **Over-specific claims that read as if they might not trace to evidence** — a precise count, denominator, date, drug name, percentage, percentile, named program, or committee that is suspiciously specific. Do not assume fabrication, but flag it for the monitor to confirm against the attached source file, noting the specific item. (The prior `evidence-report` 2% summaries are NOT a valid source; only the per-care-area source file and finalized sections are.)
-18. **Missing definitional asides** — clinical terms of art (SBAR, MDS, Braden Scale, QAPI, PBJ, Facility Assessment) need a brief definition on first use for court readers; flag first-uses without one.
+18. **Missing definitional asides** — clinical terms of art (SBAR, MDS, Braden Scale, QAPI, PBJ, Facility Assessment) need a brief definition on first use for court readers; flag first-uses without one. **But do NOT flag — and DO flag the re-expansion of — the pre-defined acronyms** ACEO, DON, LPN, EMR, TAR, DVA, CMS, CFR (`kate-rules.md` rule 4): these are pre-defined report-wide and must appear as the bare abbreviation. Flag any spelled-out or parenthetically-expanded use of them and strip the expansion in the rewrite.
+
+## Banned phrases — scan every draft against this table (from `kate-rules.md` §3)
+
+If any phrase on the left appears in the draft, flag it and apply the replacement. This is a hard scan, run on every check.
+
+| Banned phrase | Replacement |
+|---|---|
+| "No bright spots were identified during that observation" | Omit entirely; note the absence without this phrasing, or say nothing |
+| "It is important to note that" | Delete; start with the finding itself |
+| "Unprecedented" | "Not observed" / "not documented" |
+| "We will continue to monitor" | Delete unless the reporting framework requires it |
+| "Systemic gap" | Describe the specific finding without labeling it |
+| "Raises questions about whether" | State the finding directly |
+| "More concerning" | State the finding without comparative judgment |
+| "Breadth of undocumented omissions" | Describe the specific omissions found |
+| "This suggests" | State the finding. Stop. |
+| "This raises concerns about" | State the finding. Stop. |
+| "This pattern indicates" | Describe the pattern factually. Stop. |
+| "Across early visits" | Specify the actual observation pattern |
+| "Query hospital transfer" | "Recommended evaluation for hospital transfer" |
+| "DMAVA" | "DVA" |
+| "Physician order summary" | "Physician order set" |
+
+## Confirming the rewrite (file-change confirmation, `kate-rules.md` §6)
+
+When you apply the rewrite to a file (rather than only returning it in chat), confirm it plainly: `Applied: voice-check fixes in [filename]. Lines [X–Y] modified.` If you are only returning a proposed rewrite in chat, say so — "Proposed rewrite below (not yet written to any file)." Never leave Kate unsure whether the draft on disk was changed.
 
 ## Output
 

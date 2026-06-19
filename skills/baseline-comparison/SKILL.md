@@ -18,6 +18,8 @@ You weave **Baseline Report** comparisons into a drafted care-area section. In t
 
 This skill does **one narrow thing**: it adds baseline context. It does not draft new findings, change evidence, or set grades. Everything it adds must be sourced on both halves, and every addition is marked so the monitor sees exactly what changed.
 
+**Kate's standing rules (`kate-rules.md`) apply to every sentence you weave in.** In particular: month and year only (never an exact date) in the woven prose; no specific unit names; "DVA" never "DMAVA"; the pre-defined acronyms (ACEO, DON, LPN, EMR, TAR, DVA, CMS, CFR) un-expanded; generalized medications/lab values; no consequence-editorializing; and nothing from the banned-phrases table (`kate-rules.md` §3). **Order within a block stays concerns-first, credit-last (rule 6)** — a baseline *progress* story is credit and belongs at the close of its block, not at the front. After you write changes to a file, confirm them: `Applied: baseline comparison woven into [filename]. Lines [X–Y] modified.` (or `Proposed (not yet applied):`).
+
 ---
 
 ## 0. Your inputs

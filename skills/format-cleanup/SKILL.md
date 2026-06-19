@@ -35,6 +35,18 @@ So, per section, inspect the NOTES content before removing it:
 
 Also scan the prose ABOVE each fence for stray scaffolding that should never have survived drafting — inline `[DATA NEEDED]` tags, observation IDs (`obs_…`), `[RESIDENT]` / `[RESIDENT-N]` placeholders, bracketed grading notes, skill-section references. **Do not edit these away yourself** (that would be a content change). Flag each one in the warning block so the monitor can resolve it in the source section.
 
+### Kate's-rules final scan — WARN, do not edit (`kate-rules.md`)
+
+As the last gate before filing, scan the filed prose for violations of the monitor's standing rules and **flag each in the warning block (§5) — never silently fix one** (that is a content change). Flag:
+
+- **"DMAVA"** anywhere (must be "DVA").
+- Any **specific unit or wing name** in the prose (general references only; unit names belong only in a crosswalk, which is being stripped).
+- Any **exact date** (day/month/year, e.g. "March 14, 2026") in the prose (must be month/year only).
+- Any **banned phrase** from `kate-rules.md` §3 ("it is important to note that," "this suggests," "systemic gap," "more concerning," "unprecedented," "physician order summary," "query hospital transfer," etc.).
+- Any **re-expanded pre-defined acronym** — "Electronic Medical Record (EMR)," "Treatment Administration Records (TARs)," and the like for ACEO, DON, LPN, EMR, TAR, DVA, CMS, CFR.
+
+Each hit is the monitor's to resolve in the source section; your job is to surface it before the document is filed, not to rewrite it.
+
 ### Unresolved `NO EVIDENCE` placeholder blocks — WARN, do not file or delete
 
 A drafted section gives every CD paragraph in the measure a block; paragraphs with no evidence this period are placeholders of the form `Paragraph NN — Topic. NO EVIDENCE.`. A `NO EVIDENCE` line surviving to assembly means **the monitor has not resolved that paragraph's carry-forward** — they have not yet replaced it with the carried-forward determination language or confirmed the carry-forward. Filing a court report with a bare "NO EVIDENCE" in the body is not acceptable, and silently deleting the block would drop a paragraph the court expects addressed.
@@ -107,7 +119,7 @@ Use the exact filed care-area names. If a section is missing or a facility block
 Order your reply as follows.
 
 1. **Top-of-reply status line** (NOT inside the document): `Changed N formatting items, 0 content items. Stripped M NOTES blocks.`
-2. **Reconciliation warnings (if any), before the document.** For each section that still carried unresolved NOTES content or stray above-fence scaffolding: facility, care area, and each unresolved item quoted verbatim, with the instruction that the monitor must complete reconciliation before this section can be filed. If every section was clean, say so in one line.
+2. **Reconciliation warnings (if any), before the document.** For each section that still carried unresolved NOTES content, stray above-fence scaffolding, or a **Kate's-rules hit** (DMAVA, a unit name, an exact date, a banned phrase, or a re-expanded pre-defined acronym): facility, care area, and each item quoted verbatim, with the instruction that the monitor must resolve it in the source section before filing. If every section was clean, say so in one line.
 3. **The fully assembled, formatted document** — cover page, TOC, Executive Summary, Implementation, per-facility blocks in canonical order, all NOTES blocks removed.
 4. **"Suggested content edits (not applied)"** — a separate list, kept entirely out of the document, of anything you would have changed but did not (awkward wording, an apparent typo, a possible inconsistency between sections). The team decides; you never apply these.
 5. **Post-paste checklist for Google Docs:**
