@@ -37,6 +37,10 @@ session-handoff (START: load kate-rules.md + latest handoff)
 
 [`kate-rules.md`](./kate-rules.md) is the always-on rulebook every skill reads. It holds the monitor's hard rules, the banned-phrases table, the excluded-observations list, the pre-defined acronyms, and the `[Kate:]` annotation convention. `session-handoff` appends new standing rules to it as the monitor establishes them, so the rules she used to repeat every session now load automatically. **Rules are never deleted from it.**
 
+## `CLAUDE.md` — the auto-load baseline
+
+A Cowork plugin has no session-start hook, so `session-handoff` only runs when invoked. To guarantee the standing rules are in context from the **start** of every session, the essential rules (hard rules, banned phrases, acronyms, voice guards) also live in the workspace **[`CLAUDE.md`](./CLAUDE.md)**, which Cowork loads automatically. The copy here is the versioned master; the live copy sits at the root of the Drive-mounted working folder (`Hibiscus Court Reports/`) where it actually auto-loads. Keep `kate-rules.md`, this README, and both `CLAUDE.md` copies in sync when rules change.
+
 ### The `[Kate:]` annotation convention
 
 The monitor annotates observation files in Google Docs (red font, inline notes), then exports to plain text — which loses the color. The `[Kate:]` prefix is the official annotation method that survives the export: any skill reading an observation or inventory file extracts every `[Kate:]` note, surfaces a "Kate's Annotations" summary, and treats each as a binding instruction.
